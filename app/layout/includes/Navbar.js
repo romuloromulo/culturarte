@@ -20,8 +20,8 @@ export default function Navbar() {
   return (
     <div
       id="NavBar"
-      className=" bg-white bg-opacity-80 w-full fixed flex justify-center font-sans">
-      <nav className="lg:px-12  max-w-[1200px] w-full lg:px-15 p-1 flex justify-between items-center px-10">
+      className=" bg-white bg-opacity-80 w-full fixed flex  top-0">
+      <nav className="max-w-[1200px] w-full lg:px-15 p-1 flex justify-between items-center px-10">
         <div id="MenuEsquerda">
           <Link href="/">
             <Image src={Logo} width={150} height={35} alt="Logo Culturarte" />

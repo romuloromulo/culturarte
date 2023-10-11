@@ -14,7 +14,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Montserrat"],
+      sans: ["Syne"],
     },
   },
   plugins: [],

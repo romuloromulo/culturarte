@@ -8,17 +8,17 @@ function Header() {
   return (
     <motion.div>
       <section id="Hero" className="container mx-auto">
-        <div className="w-full flex items-center justify-around lg:px-20 flex-col lg:flex-row md:gap-24 min-h-screen font-sans">
+        <div className="w-full flex items-center justify-around lg:px-20 flex-col lg:flex-row md:gap-24 min-h-screen ">
           <div>
             <Image
               src={LogoCulturarte}
               width={400}
               height={400}
               alt="Logo Festival Culturarte"
-              className="mt-24"
+              className=""
             />
           </div>
-          <div className="mt-16 text-center flex flex-col center">
+          <div className="text-center flex flex-col center">
             <div className="border-b-2 border-red-300 pb-8">
               <p className="text-zinc-900  text-3xl lg:flex-col lg:flex">
                 <span className=" font-semibold md:text-6xl text-red-600 md:font-bold italic">
@@ -61,12 +61,20 @@ function Header() {
               </p>
               <div className="w-full h-auto flex justify-center items-center">
                 <Link href="/programacao">
-                  <div className="bg-yellow-500 border-2 border-yellow-500 hover:bg-transparent hover:text-zinc-900  rounded-lg w-[12rem] mt-10 py-4 px-8 flex center text-2xl font-bold font-sans text-white text-center duration-300 ease-out hover:-translate-y-[15%]  ">
+                  <div className="bg-yellow-500 border-2 border-yellow-500 hover:bg-transparent hover:text-zinc-900  rounded-lg w-[12rem] mt-10 py-4 px-8 flex justify-center items-center text-2xl font-bold  text-white text-center duration-300 ease-out hover:-translate-y-[15%]  ">
                     Programação
                   </div>
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full text-center">
+            <h1 className="mb-14 font-semibold text-lg">
+              <span> Música</span> • <span>Culinária</span> •<span></span>{" "}
+              Artesanato • <span></span>Artes Visuais • <span></span>Literatura
+            </h1>
           </div>
         </div>
       </section>
