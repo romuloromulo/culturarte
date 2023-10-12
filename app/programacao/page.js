@@ -7,8 +7,8 @@ import { BiDownArrow } from "react-icons/bi";
 function Programação() {
   return (
     <MainLayout>
-      <div id="Programação" className="container mx-auto min-h-screen">
-        <div className="w-full flex items-start justify-between lg:pr-12 flex-col lg:flex-row ">
+      <div id="Programação" className="min-h-screen">
+        <div className="container mx-auto w-full flex items-start justify-between lg:pr-12 flex-col lg:flex-row ">
           <div className="w-full mt-[75px] flex md:flex-row flex-col items-center justify-between gap-4">
             <div className="relative p-12 md:pr-0 -z-50">
               <span className="absolute p-10 md:p-14 rounded-full bg-red-500 -z-40 top-[25%]  md:top-[15%] "></span>
@@ -22,12 +22,12 @@ function Programação() {
         </div>
         <div
           id="Barreirinhas"
-          className="w-full flex md:flex-row flex-col  items-center  lg:px-12  mb-8 ">
+          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  mb-8 ">
           <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
             <h1 className="text-5xl font-semibold font-sans text-zinc-800">
               Barreirinhas
             </h1>
-            <p className="text-lg font-semibold">
+            <p className="text-md sm:text-lg font-semibold">
               2 a 4 de Novembro, <br className="hidden md:block" />
               Praça da Matriz
             </p>
@@ -65,44 +65,44 @@ function Programação() {
         {/* <div className="w-full flex justify-center mb-8">
           <div className="border-b-2 border-orange-400 pb-8 w-[80%] " />
         </div> */}
-        <div
-          id="São Luís"
-          className="w-full flex md:flex-row flex-col  items-center  lg:px-12 bg-zinc-900 text-white py-20">
-          <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
-            <h1 className="text-5xl font-semibold font-sans ">São Luís</h1>
-            <p className="text-lg font-semibold">
-              10 a 12 de Novembro, Convento das Mercês
-            </p>
-            <p className="text-white md:hidden mt-4">
-              <BiDownArrow size={22} />
-            </p>
-          </div>
-          <div className="w-full flex flex-col p-4  mx-4 rounded-xl text-zinc-800 shadow-lg ">
-            <div>
-              <ul>
-                {programaçãoSlz.map((dia) => (
-                  <li key={dia.diaSemana}>
-                    <div className="flex items-center w-full gap-2 mb-2">
-                      <h1
-                        className="text-xl text-white md:text-4xl font-bold"
-                        style={{ whiteSpace: "nowrap" }}>
-                        {" "}
-                        {dia.diaSemana}
-                      </h1>{" "}
-                      <div className="border-b-2 border-yellow-200 w-full" />
-                    </div>
-                    <ul className="ml-1 md:ml-2 mb-6">
-                      {dia.eventos.map((evento) => (
-                        <li
-                          key={evento.titulo}
-                          className="font-semibold mb-4 text-white">
-                          {evento.hora} - {evento.titulo}
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
+        <div id="São Luís" className="w-full bg-zinc-800 ">
+          <div className="container mx-auto  flex md:flex-row flex-col  items-center  lg:px-12 text-white py-20 ">
+            <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
+              <h1 className="text-5xl font-semibold font-sans ">São Luís</h1>
+              <p className="text-md sm:text-lg font-semibold">
+                10 a 12 de Novembro, Convento das Mercês
+              </p>
+              <p className="text-white md:hidden mt-4">
+                <BiDownArrow size={22} />
+              </p>
+            </div>
+            <div className="w-full flex flex-col p-4  mx-4 rounded-xl text-zinc-800 shadow-lg">
+              <div>
+                <ul>
+                  {programaçãoSlz.map((dia) => (
+                    <li key={dia.diaSemana}>
+                      <div className="flex items-center w-full gap-2 mb-2">
+                        <h1
+                          className="text-xl text-white md:text-4xl font-bold"
+                          style={{ whiteSpace: "nowrap" }}>
+                          {" "}
+                          {dia.diaSemana}
+                        </h1>{" "}
+                        <div className="border-b-2 border-yellow-200 w-full" />
+                      </div>
+                      <ul className="ml-1 md:ml-2 mb-6">
+                        {dia.eventos.map((evento) => (
+                          <li
+                            key={evento.titulo}
+                            className="font-semibold mb-4 text-white">
+                            {evento.hora} - {evento.titulo}
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

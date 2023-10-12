@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div
       id="NavBar"
-      className="bg-white bg-opacity-80 z-10 w-full fixed flex md:justify-center md:items-center  top-0">
+      className="bg-white bg-opacity-80 z-50 w-full fixed flex md:justify-center md:items-center  top-0">
       <nav className="max-w-[1200px] w-full lg:px-15 p-1  justify-between items-center px-10 hidden  sm:flex">
         <div id="MenuEsquerda">
           <Link href="/">
