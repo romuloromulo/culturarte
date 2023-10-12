@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_claro-.png";
+import logoNav from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
@@ -87,43 +88,30 @@ export default function Navbar() {
       <div
         className={
           openNav
-            ? "fixed left-0 top-0 w-screen sm:hidden h-full bg-zinc-300 border-2 bg-opacity-90 p-10 ease-linear duration-500 z-50"
+            ? "fixed left-0 top-0 w-screen sm:hidden h-full bg-zinc-900 border-2 ease-linear duration-500 z-50 text-white"
             : "fixed left-[-100%] top-0 p-10 ease-out duration-500 z-50"
         }
         onClick={handleNav}>
-        <ul className="w-full flex flex-col justify-center items-center mt-36">
+        <Image src={logoNav} width={100} height={100} alt="logo" />
+        <ul className="w-full  font-bold text-4xl">
           <Link href="/">
-            <li
-              key={1}
-              className="text-2xl relative text-zinc-900 font-bold hover:underline hover:text-zinc-800 mt-4 group">
-              Home
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-red-400 -z-10 group-hover:h-full group-hover:transition-all"></span>
+            <li className="bg-red-600 p-8 w-full">
+              <p className=" relative hover:text-white group">Home</p>
             </li>
           </Link>
-          <Link href="#sobre">
-            <li
-              key={2}
-              className="text-2xl relative text-zinc-900 font-bold hover:underline hover:text-zinc-800 mt-4 group"
-              onClick={handleNav}>
-              Sobre
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-red-400 -z-10 group-hover:h-full group-hover:transition-all"></span>
+          <Link href="#Sobre">
+            <li className="bg-teal-500 p-8 w-full">
+              <p className=" relative hover:text-white group">Sobre</p>
             </li>
           </Link>
-          <Link href="/atracoes">
-            <li
-              key={3}
-              className="text-2xl relative text-zinc-900 font-bold hover:underline hover:text-zinc-800 mt-4 group"
-              onClick={handleNav}>
-              Atrações
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-red-400 -z-10 group-hover:h-full group-hover:transition-all"></span>
+          <Link href={`/atracoes`}>
+            <li className="bg-orange-600  p-8 w-full">
+              <p className=" relative hover:text-white group">Atrações</p>
             </li>
           </Link>
-          <Link href="/programacao">
-            <li
-              key={4}
-              className="text-2xl relative text-zinc-900 font-bold hover:underline hover:text-zinc-800 mt-4 group">
-              Programação
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-red-400 -z-10 group-hover:h-full group-hover:transition-all"></span>
+          <Link href={`/programacao`}>
+            <li className="bg-purple-600 p-8 w-full">
+              <p className=" relative hover:text-white group">Programação</p>
             </li>
           </Link>
         </ul>
