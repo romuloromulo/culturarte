@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React from "react";
 import Navbar from "./includes/Navbar";
 import "../../app/globals.css";

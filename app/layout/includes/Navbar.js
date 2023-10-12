@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_claro-.png";
 import logoNav from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
+import baseDireita from "../../../public/images/logos/Base-direita.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
@@ -85,36 +86,57 @@ export default function Navbar() {
         onClick={handleNav}>
         <AiOutlineMenu size={22} className="text-black" />
       </nav>
+
       <div
         className={
           openNav
-            ? "fixed left-0 top-0 w-screen sm:hidden h-full bg-zinc-900 border-2 ease-linear duration-500 z-50 text-white"
+            ? "fixed left-0 top-0 w-screen sm:hidden h-full bg-zinc-900 border-2  ease-linear duration-500 z-50 p-10"
             : "fixed left-[-100%] top-0 p-10 ease-out duration-500 z-50"
         }
         onClick={handleNav}>
-        <Image src={logoNav} width={100} height={100} alt="logo" />
-        <ul className="w-full  font-bold text-4xl">
-          <Link href="/">
-            <li className="bg-red-600 p-8 w-full">
-              <p className=" relative hover:text-white group">Home</p>
+        <Image src={logoNav} width={130} height={130} alt="logo" />
+        <ul
+          className="w-full flex flex-col mt-8 font-bold text-4xl text-zinc-200
+         gap-10">
+          <Link href="/" className="p-4 rounded-full shadow-lg ">
+            <li className=" ">
+              <p className="relative hover:text-white group p-2">
+                Home
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-red-600  -z-10 group-hover:h-[105%] group-hover:rounded-full group-hover:transition-all"></span>
+              </p>
             </li>
           </Link>
-          <Link href="#Sobre">
-            <li className="bg-teal-500 p-8 w-full">
-              <p className=" relative hover:text-white group">Sobre</p>
+          <Link href="#Sobre" className="p-4 rounded-full shadow-lg ">
+            <li className=" ">
+              <p className=" relative p-2 hover:text-white group">
+                Sobre
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-teal-500 -z-10 group-hover:transition-all  group-hover:h-[105%] group-hover:rounded-full "></span>
+              </p>
             </li>
           </Link>
-          <Link href={`/atracoes`}>
-            <li className="bg-orange-600  p-8 w-full">
-              <p className=" relative hover:text-white group">Atrações</p>
+          <Link href={`/atracoes`} className="p-4 rounded-full shadow-lg ">
+            <li className=" ">
+              <p className=" relative p-2 hover:text-white group">
+                Atrações
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-orange-600 -z-10  group-hover:h-[105%] group-hover:rounded-full group-hover:transition-all"></span>
+              </p>
             </li>
           </Link>
-          <Link href={`/programacao`}>
-            <li className="bg-purple-600 p-8 w-full">
-              <p className=" relative hover:text-white group">Programação</p>
+          <Link href={`/programacao`} className="p-4 rounded-full shadow-lg ">
+            <li className=" ">
+              <p className=" relative p-2 hover:text-white group">
+                Programação
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-purple-600 -z-10 group-hover:h-[105%] group-hover:rounded-full group-hover:transition-all"></span>
+              </p>
             </li>
           </Link>
         </ul>
+        <Image
+          src={baseDireita}
+          className="botton-0 right-0 absolute"
+          width={170}
+          height={170}
+        />
       </div>
     </div>
   );
