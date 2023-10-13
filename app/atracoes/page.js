@@ -7,8 +7,10 @@ import { atracoes } from "@/data/AtracoesData";
 
 function Atrações() {
   const renderAtraçoes = atracoes.map((item, index) => (
-    <div key={index} className="relative z-10">
-      <Image src={item.imagem} width={500} height={500} />
+    <div
+      key={index}
+      className="relative z-10 overflow-hidden rounded-full w-[300px] h-[300px] ">
+      <Image src={item.imagem} width={600} height={600} />
     </div>
   ));
 
@@ -45,7 +47,9 @@ function Atrações() {
             <div className="sm:w-[90%] w-[50%] border-b mt-[-1rem] md:mt-0 mb-4 md:mb-0 border-red-400"></div>
           </div>
         </div>
-        {renderAtraçoes}
+        <div className="container mx-auto z-30 grid grid-cols-4 gap-4">
+          {renderAtraçoes}
+        </div>
       </div>
     </MainLayout>
   );

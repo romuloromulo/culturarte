@@ -1,6 +1,8 @@
 import React from "react";
+import Image from "next/image";
 import MainLayout from "../layout/MainLayout";
 import { programaçãoBarreirinhas, programaçãoSlz } from "@/data/FestivalData";
+import BaseEsquerda from "../../public/images/logos/Base-Esquerda.png";
 
 import { BiDownArrow } from "react-icons/bi";
 
@@ -22,7 +24,7 @@ function Programação() {
         </div>
         <div
           id="Barreirinhas"
-          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  mb-8 ">
+          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  mb-8 relative">
           <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
             <h1 className="text-5xl font-semibold font-sans text-zinc-800">
               Barreirinhas
@@ -62,10 +64,13 @@ function Programação() {
             </div>
           </div>
         </div>
-        {/* <div className="w-full flex justify-center mb-8">
-          <div className="border-b-2 border-orange-400 pb-8 w-[80%] " />
-        </div> */}
-        <div id="São Luís" className="w-full bg-zinc-800 ">
+        <Image
+          src={BaseEsquerda}
+          width={200}
+          height={200}
+          className="left-0 botton-0 mt-[-15%] hidden md:block"
+        />
+        <div id="São Luís" className="w-full bg-zinc-800 relative">
           <div className="container mx-auto  flex md:flex-row flex-col  items-center  lg:px-12 text-white py-20 ">
             <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
               <h1 className="text-5xl font-semibold font-sans ">São Luís</h1>
@@ -105,6 +110,12 @@ function Programação() {
               </div>
             </div>
           </div>
+          <Image
+            src={BaseEsquerda}
+            width={200}
+            height={200}
+            className="left-0 botton-0 mt-[-25%] hidden md:block"
+          />
         </div>
       </div>
     </MainLayout>
