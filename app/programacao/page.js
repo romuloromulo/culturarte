@@ -5,6 +5,7 @@ import { programaçãoBarreirinhas, programaçãoSlz } from "@/data/FestivalData
 import BaseDireita from "../../public/images/logos/Base-Direita-Horizontal.png";
 import BaseEsquerda from "../../public/images/logos/Base-Esquerda-Horizontal.png";
 import BaseEsquerdaVertical from "../../public/images/logos/Base-Esquerda.png";
+import Logo from "../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 
 import { BiDownArrow } from "react-icons/bi";
 
@@ -13,12 +14,13 @@ function Programação() {
     <MainLayout>
       <div id="Programação" className="min-h-screen relative pt-24">
         <div className="container mx-auto w-full flex items-start justify-between lg:pr-12 flex-col lg:flex-row ">
+          <Image src={Logo} width={200} height={200} className="mx-auto z-10" />
           <div className="">
             <Image
               src={BaseDireita}
               width={200}
               height={200}
-              className="right-0 top-0 absolute md:mt-[75px] w-[170px]  h-[170px] md:w-auto md:h-auto"
+              className="right-0 top-0 absolute md:mt-[75px] w-[150px]  h-[150px] md:w-auto md:h-auto"
             />
           </div>
           <div>
@@ -26,11 +28,11 @@ function Programação() {
               src={BaseEsquerda}
               width={200}
               height={200}
-              className="left-0 top-0 absolute md:mt-[75px] w-[170px]  h-[170px] md:w-auto md:h-auto"
+              className="left-0 top-0 absolute md:mt-[75px] w-[150px]  h-[150px] md:w-auto md:h-auto"
             />
           </div>
 
-          <div className="w-full mt-[75px] flex md:flex-row flex-col items-center justify-between gap-4">
+          <div className="w-full md:mt-[75px] flex md:flex-row flex-col items-center justify-between gap-4">
             <div className="relative p-12 md:pr-0 z-20">
               {/* <span className="absolute p-10 md:p-14 rounded-full bg-red-500 -z-40 top-[25%]  md:top-[15%] "></span>
               <span className="absolute p-6 md:p-8 rounded-full bg-yellow-500 -z-40 right-[25%] top-[35%] md:right-[15%] "></span> */}

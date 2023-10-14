@@ -1,6 +1,6 @@
 import Indiana from "./artistas/CULTURARTE/Indiana2.jpeg";
 import ArmandinhoPowell from "./artistas/CULTURARTE/Armandinho-Powell.jpeg";
-import BoiDeSantaFe from "./artistas/CULTURARTE/Boi-De-Santa-Fé.jpeg";
+import BoiDeSantaFe from "./artistas/CULTURARTE/Boi-De-Santa-Fe.jpeg";
 import ChiquinhoFrança from "./artistas/CULTURARTE/Chiquinho-França.jpeg";
 import Desengaiola from "./artistas/CULTURARTE/desengaiola.webp";
 import DuoSiqueira from "./artistas/CULTURARTE/duosiqueiralima.webp";
