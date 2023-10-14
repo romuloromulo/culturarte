@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_claro-.png";
+import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 import logoNav from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 import baseDireita from "../../../public/images/logos/Base-direita.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div
       id="NavBar"
-      className="bg-white bg-opacity-80 z-50 w-full fixed flex md:justify-center md:items-center  top-0">
+      className="bg-zinc-900 bg-opacity-80 z-50 w-full fixed flex md:justify-center md:items-center  top-0">
       <nav className="max-w-[1200px] w-full lg:px-15 p-1  justify-between items-center px-10 hidden  sm:flex">
         <div id="MenuEsquerda">
           <Link href="/">
@@ -26,36 +26,36 @@ export default function Navbar() {
           </Link>
         </div>
         <div id="MenuMeio">
-          <ul className="flex justify-center items-center gap-12">
+          <ul className="flex justify-center items-center gap-12 text-zinc-100">
             <Link href="/">
-              <li className="text-lg text-zinc-800 ">
+              <li className="text-lg ">
                 <p className=" relative hover:text-white group">
                   Home
-                  <span className="absolute left-0 -bottom-1 w-full h-2 bg-red-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-red-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
             <Link href="#Sobre">
-              <li className="text-lg text-zinc-800 ">
+              <li className="text-lg ">
                 <p className=" relative hover:text-white group">
                   Sobre
-                  <span className="absolute left-0 -bottom-1 w-full h-2 bg-teal-500 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-teal-500 -z-10 group-hover:h-full group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
             <Link href={`/atracoes`}>
-              <li className="text-lg text-zinc-800 ">
+              <li className="text-lg ">
                 <p className=" relative hover:text-white group">
                   Atrações
-                  <span className="absolute left-0 -bottom-1 w-full h-2 bg-orange-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-orange-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
             <Link href={`/programacao`}>
-              <li className="text-lg text-zinc-800 ">
+              <li className="text-lg ">
                 <p className=" relative hover:text-white group">
                   Programação
-                  <span className="absolute left-0 -bottom-1 w-full h-2 bg-purple-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-purple-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
@@ -65,14 +65,14 @@ export default function Navbar() {
           <Link
             href="https://www.instagram.com/culturarte_maranhao/"
             target="_blank">
-            <div className="bg-red-600 border-2 border-red-600 hover:bg-transparent rounded-full p-2 hover:bg-white hover:-translate-y-[15%]  duration-300 ease-out">
+            <div className="bg-red-600 border-2 border-red-600  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300  hover:text-white ease-out">
               <SiInstagram size={22} />
             </div>
           </Link>
           <Link
             href="https://www.instagram.com/culturarte_maranhao/"
             target="_blank">
-            <div className="bg-yellow-400 border-2 border-yellow-400  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%]  duration-300 ease-out">
+            <div className="bg-yellow-400 border-2 border-yellow-400  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white  duration-300 ease-out">
               <SiFacebook size={22} />
             </div>
           </Link>
@@ -96,13 +96,13 @@ export default function Navbar() {
         onClick={handleNav}>
         <Image src={logoNav} width={130} height={130} alt="logo" />
         <ul
-          className="w-full flex flex-col mt-8 font-bold text-4xl text-zinc-200
+          className="flex min-w-[12rem] w-[20%] flex-col mt-8 font-bold text-lg text-zinc-200
          gap-10">
-          <Link href="/" className="p-4 rounded-full shadow-lg ">
+          <Link href="/" className="p-4 rounded-full shadow-lg  ">
             <li className=" ">
               <p className="relative hover:text-white group p-2">
                 Home
-                <span className="absolute left-0 -bottom-1 w-full h-2 bg-red-600  -z-10 group-hover:h-[105%] group-hover:rounded-full group-hover:transition-all"></span>
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-red-600  rounded-full -z-10 group-hover:h-[105%]  group-hover:transition-all"></span>
               </p>
             </li>
           </Link>
@@ -110,7 +110,7 @@ export default function Navbar() {
             <li className=" ">
               <p className=" relative p-2 hover:text-white group">
                 Sobre
-                <span className="absolute left-0 -bottom-1 w-full h-2 bg-teal-500 -z-10 group-hover:transition-all  group-hover:h-[105%] group-hover:rounded-full "></span>
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-teal-500 -z-10 group-hover:transition-all  group-hover:h-[105%]  rounded-full  "></span>
               </p>
             </li>
           </Link>
@@ -118,7 +118,7 @@ export default function Navbar() {
             <li className=" ">
               <p className=" relative p-2 hover:text-white group">
                 Atrações
-                <span className="absolute left-0 -bottom-1 w-full h-2 bg-orange-600 -z-10  group-hover:h-[105%] group-hover:rounded-full group-hover:transition-all"></span>
+                <span className="absolute left-0 -bottom-1 w-full h-2 bg-orange-600 -z-10  group-hover:h-[105%]  rounded-full  group-hover:transition-all"></span>
               </p>
             </li>
           </Link>
@@ -126,7 +126,7 @@ export default function Navbar() {
             <li className=" ">
               <p className=" relative p-2 hover:text-white group">
                 Programação
-                <span className="absolute left-0 -bottom-1 w-full h-2 bg-purple-600 -z-10 group-hover:h-[105%] group-hover:rounded-full group-hover:transition-all"></span>
+                <span className="absolute left-0 -bottom-1 w-full h-2  bg-purple-600 -z-10 group-hover:h-[105%]  rounded-full  group-hover:transition-all"></span>
               </p>
             </li>
           </Link>

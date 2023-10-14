@@ -12,6 +12,8 @@ import SpokFrevoQuinteto from "./artistas/CULTURARTE/Spok-Frevo-Quinteto.jpeg";
 import TamborArteNossa from "./artistas/CULTURARTE/Tambor-de-Crioula-Arte-Nossa.jpeg";
 import Ceara from "./artistas/CULTURARTE/Ceará.png";
 import WendelSalles from "./artistas/CULTURARTE/Wendel-deLa-Salles.jpeg";
+import GisBranco from "./artistas/CULTURARTE/GisBranco.jpeg";
+import Klicia from "./artistas/CULTURARTE/Klicia.jpeg";
 export {
   Indiana,
   ArmandinhoPowell,
@@ -27,4 +29,6 @@ export {
   TamborArteNossa,
   Ceara,
   WendelSalles,
+  GisBranco,
+  Klicia,
 };

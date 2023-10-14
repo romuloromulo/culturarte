@@ -5,7 +5,7 @@ import "../../app/globals.css";
 function MainLayout({ children }) {
   return (
     <>
-      <div id="MainLayout">
+      <div id="MainLayout" className="bg-zinc-900">
         <div>
           <Navbar />
         </div>
