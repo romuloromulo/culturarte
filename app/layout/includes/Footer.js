@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import FooterP from "../../../public/images/logos/Patrocineo-Footer.jpeg";
+import FooterP from "../../../public/images/logos/patrocineo-footer.jpeg";
 
 function Footer() {
   return (
