@@ -11,7 +11,7 @@ function Header() {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -100 }}
       transition={{ duration: 1 }}>
-      <section id="Hero" className="bg-zinc-900">
+      <section id="Hero" className="">
         <div className="container mx-auto">
           <div className="w-full flex items-center justify-around lg:px-20 flex-col lg:flex-row md:gap-24 min-h-screen ">
             <div className="px-8 md:px-0 mt-4">

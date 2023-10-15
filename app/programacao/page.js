@@ -58,7 +58,7 @@ function Programação() {
         </div>
         <div
           id="Barreirinhas"
-          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  md:mb-8 relative bg-zinc-900 text-zinc-100">
+          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  md:mb-8 relative  text-zinc-100">
           <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
             <h1 className="text-5xl font-semibold font-sans text-zinc-100">
               Barreirinhas
