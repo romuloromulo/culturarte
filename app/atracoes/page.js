@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import Image from "next/image";
@@ -5,6 +6,7 @@ import BaseDireita from "../../public/images/logos/Base-Direita-Horizontal.png";
 import BaseEsquerda from "../../public/images/logos/Base-Esquerda-Horizontal.png";
 import { atracoes } from "@/data/AtracoesData";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function Atrações() {
   const renderAtraçoes = atracoes.map((item, index) =>
@@ -12,9 +14,9 @@ function Atrações() {
       <div className="flex flex-col items-center justify-center text-center font-semibold text-zinc-100 text-sm ">
         <div
           key={index}
-          className="z-10 rounded-full  w-[200px] h-[200px] flex items-center justify-center overflow-hidden m-1 mb-2 bg-black">
+          className="z-10 rounded-full  w-[200px] h-[200px] flex items-center justify-center overflow-hidden m-1 mb-2 relative">
           <div className="w-full h-full relative">
-            <Link href={`artista/${item.id}`} className="group">
+            <Link href={`atracoes/${item.id}`} className="group ">
               <Image
                 src={item.imagem}
                 alt={`Foto de ${item.nome}`}
@@ -22,6 +24,12 @@ function Atrações() {
                 objectFit="cover"
                 className="shadow-lg"
               />
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileHover={{ opacity: 1 }}
+                className="bg-black bg-opacity-70 absolute h-full w-full top-0 left-0 transition-opacity flex justify-center items-center">
+                <div className="bg-yellow-500 p-2 rounded-lg">Saiba mais</div>
+              </motion.div>
             </Link>
           </div>
         </div>
@@ -31,8 +39,8 @@ function Atrações() {
           <div className="text-lg text-yellow-500 hover:text-zinc-100 hover:-translate-y-2 duration-300">
             {item.nome}
           </div>{" "}
-          <div className="text-teal-400">{item.estado}</div>
         </Link>
+        <div className="text-teal-400">{item.estado}</div>
         <div className="border-b mx-auto mt-1 border-zinc-700 w-[2rem]" />
       </div>
     ) : null

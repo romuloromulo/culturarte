@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div
       id="NavBar"
-      className="bg-zinc-900 bg-opacity-80 z-50 w-full fixed flex md:justify-center md:items-center  top-0">
+      className="bg-zinc-900  z-50 w-full fixed flex md:justify-center md:items-center  top-0">
       <nav className="max-w-[1200px] w-full lg:px-15 p-1  justify-between items-center px-10 hidden  sm:flex">
         <div id="MenuEsquerda">
           <Link href="/">
@@ -26,36 +26,36 @@ export default function Navbar() {
           </Link>
         </div>
         <div id="MenuMeio">
-          <ul className="flex justify-center items-center gap-12 text-zinc-100">
+          <ul className="flex justify-center items-center gap-12 text-zinc-100 text-lg">
             <Link href="/">
-              <li className="text-lg ">
-                <p className=" relative hover:text-white group">
+              <li className=" ">
+                <p className="relative hover:text-white group p-2">
                   Home
-                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-red-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 bottom-1 w-full h-1 bg-red-600  rounded-full -z-10 group-hover:h-[80%]  group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
-            <Link href="#Sobre">
-              <li className="text-lg ">
-                <p className=" relative hover:text-white group">
+            <Link href="/#Sobre">
+              <li className=" ">
+                <p className="relative hover:text-white group p-2">
                   Sobre
-                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-teal-500 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 bottom-1 w-full h-1 bg-teal-600  rounded-full -z-10 group-hover:h-[80%]  group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
             <Link href={`/atracoes`}>
-              <li className="text-lg ">
-                <p className=" relative hover:text-white group">
+              <li className=" ">
+                <p className="relative hover:text-white group p-2">
                   Atrações
-                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-orange-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
+                  <span className="absolute left-0 bottom-1 w-full h-1 bg-orange-600  rounded-full -z-10 group-hover:h-[80%]  group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
             <Link href={`/programacao`}>
-              <li className="text-lg ">
-                <p className=" relative hover:text-white group">
-                  Programação
-                  <span className="absolute left-0 -bottom-1 w-full h-1  bg-purple-600 -z-10 group-hover:h-full group-hover:transition-all"></span>
+              <li className=" ">
+                <p className="relative hover:text-white group p-2">
+                  Progração
+                  <span className="absolute left-0 bottom-1 w-full h-1 bg-purple-600  rounded-full -z-10 group-hover:h-[80%]  group-hover:transition-all"></span>
                 </p>
               </li>
             </Link>
@@ -97,7 +97,7 @@ export default function Navbar() {
         <Image src={logoNav} width={130} height={130} alt="logo" />
         <ul
           className="flex min-w-[12rem] w-[20%] flex-col mt-8 font-bold text-lg text-zinc-200
-         gap-10">
+         gap-2">
           <Link href="/" className="p-4 rounded-full shadow-lg  ">
             <li className=" ">
               <p className="relative hover:text-white group p-2">

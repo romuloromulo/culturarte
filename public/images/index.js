@@ -14,6 +14,7 @@ import Ceara from "./artistas/CULTURARTE/Ceará.png";
 import WendelSalles from "./artistas/CULTURARTE/Wendel-deLa-Salles.jpeg";
 import GisBranco from "./artistas/CULTURARTE/GisBranco.jpeg";
 import Klicia from "./artistas/CULTURARTE/Klicia.jpeg";
+import CeliaMaria from "./artistas/CULTURARTE/Celia-Maria.jpeg";
 export {
   Indiana,
   ArmandinhoPowell,
@@ -31,4 +32,5 @@ export {
   WendelSalles,
   GisBranco,
   Klicia,
+  CeliaMaria,
 };

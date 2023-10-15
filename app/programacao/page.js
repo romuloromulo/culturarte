@@ -12,15 +12,26 @@ import { BiDownArrow } from "react-icons/bi";
 function Programação() {
   return (
     <MainLayout>
-      <div id="Programação" className="min-h-screen relative pt-24">
+      <div id="Programação" className="min-h-screen relative pt-[75px]">
+        <div className="w-full justify-center mt-12 mb-10 items-center flex md:max-h-[250px] ">
+          <div className="md:w-auto md:h-auto  w-[200px]">
+            <Image
+              src={Logo}
+              width={250}
+              height={250}
+              className="mx-auto z-10"
+              alt="Logo Culturarte"
+            />
+          </div>
+        </div>
         <div className="container mx-auto w-full flex items-start justify-between lg:pr-12 flex-col lg:flex-row ">
-          <Image src={Logo} width={200} height={200} className="mx-auto z-10" />
           <div className="">
             <Image
               src={BaseDireita}
               width={200}
               height={200}
-              className="right-0 top-0 absolute md:mt-[75px] w-[150px]  h-[150px] md:w-auto md:h-auto"
+              alt="Design Culturarte"
+              className="right-0 top-0 absolute md:mt-[75px] w-[110px]  h-[110px] md:w-auto md:h-auto"
             />
           </div>
           <div>
@@ -28,15 +39,16 @@ function Programação() {
               src={BaseEsquerda}
               width={200}
               height={200}
-              className="left-0 top-0 absolute md:mt-[75px] w-[150px]  h-[150px] md:w-auto md:h-auto"
+              alt="Design Culturarte"
+              className="left-0 top-0 absolute md:mt-[75px] w-[110px]  h-[110px] md:w-auto md:h-auto"
             />
           </div>
 
-          <div className="w-full md:mt-[75px] flex md:flex-row flex-col items-center justify-between gap-4">
+          <div className="w-full  flex md:flex-row flex-col items-center justify-between gap-4">
             <div className="relative p-12 md:pr-0 z-20">
               {/* <span className="absolute p-10 md:p-14 rounded-full bg-red-500 -z-40 top-[25%]  md:top-[15%] "></span>
               <span className="absolute p-6 md:p-8 rounded-full bg-yellow-500 -z-40 right-[25%] top-[35%] md:right-[15%] "></span> */}
-              <div className="text-4xl text-center md:text-left md:text-6xl font-bold text-zinc-100 z-20 md:flex-wrap">
+              <div className="text-4xl text-center md:text-left md:text-6xl font-bold text-zinc-100 z-20 md:whitespace-nowrap">
                 {" "}
                 Programação 2023
               </div>
@@ -46,7 +58,7 @@ function Programação() {
         </div>
         <div
           id="Barreirinhas"
-          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  mb-8 relative bg-zinc-900 text-zinc-100">
+          className=" container mx-auto  w-full flex md:flex-row flex-col  items-center  lg:px-12  md:mb-8 relative bg-zinc-900 text-zinc-100">
           <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
             <h1 className="text-5xl font-semibold font-sans text-zinc-100">
               Barreirinhas
@@ -90,36 +102,22 @@ function Programação() {
           src={BaseEsquerdaVertical}
           width={200}
           height={200}
+          alt="Design Culturarte"
           className="left-0 botton-0 mt-[-15%] hidden md:block"
         />
         <div
           id="São Luís"
-          className="w-full  min-h-screen bg-zinc-100 relative pt-[75px]">
+          className="w-full  min-h-screen bg-zinc-100 relative md:pt-[75px]">
           <div>
-            <div className="">
-              <Image
-                src={BaseDireita}
-                width={200}
-                height={200}
-                className="right-0 top-0 absolute md:mt-[75px] w-[170px]  h-[170px] md:w-auto md:h-auto md:hiddenh"
-              />
-            </div>
-            <div>
-              <Image
-                src={BaseEsquerda}
-                width={200}
-                height={200}
-                className="left-0 top-0 absolute md:mt-[75px] w-[170px]  h-[170px] md:w-auto md:h-auto md:hidden"
-              />
-            </div>
             <Image
               src={BaseDireita}
               width={200}
               height={200}
+              alt="Design Culturarte"
               className="right-0 top-0 hidden md:block absolute w-[120px]  h-[120px] md:w-auto md:h-auto"
             />
           </div>
-          <div className="container mx-auto  flex md:flex-row flex-col  items-center  lg:px-12 text-zinc-900 py-20 ">
+          <div className="container mx-auto  flex md:flex-row flex-col  items-center  lg:px-12 text-zinc-900 py-10 md:py-20 ">
             <div className="flex-col md:w-auto w-full flex items-center md:items-start justify-center md:justify-start border-white md:border-r md:border-red-300 md:pr-12">
               <h1 className="text-5xl font-semibold font-sans ">São Luís</h1>
               <p className="text-md sm:text-lg font-semibold">
@@ -162,6 +160,7 @@ function Programação() {
             src={BaseEsquerdaVertical}
             width={200}
             height={200}
+            alt="Design Culturarte"
             className="left-0 botton-0 mt-[-15%] hidden md:block"
           />
         </div>
