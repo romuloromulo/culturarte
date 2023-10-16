@@ -1,6 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import LogoCulturarte from "../../../public/images/logos/Marca_Culturarte-Vetical-Fundo_escuro-.png";
+import BaseDireita from "../../../public/images/logos/Base-Direita-Horizontal.png";
+import BaseEsquerda from "../../../public/images/logos/Base-Esquerda-Horizontal.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,7 +13,23 @@ function Header() {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -100 }}
       transition={{ duration: 1 }}>
-      <section id="Hero" className="">
+      <section id="Hero" className="relative">
+        <div className="">
+          <Image
+            src={BaseDireita}
+            width={250}
+            height={250}
+            className="right-0 top-0 absolute md:mt-[75px] w-[120px]  h-[120px] md:hidden"
+          />
+        </div>
+        <div>
+          <Image
+            src={BaseEsquerda}
+            width={250}
+            height={250}
+            className="left-0 top-0 absolute md:mt-[75px] w-[120px]  h-[120px] md:hidden"
+          />
+        </div>
         <div className="container mx-auto">
           <div className="w-full flex items-center justify-around lg:px-20 flex-col lg:flex-row md:gap-24 pt-[85px] 2xl:pt-0 2xl:min-h-screen">
             <div className="px-8 md:px-0 mt-8 w-[70%] md:w-auto">

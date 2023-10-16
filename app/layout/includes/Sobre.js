@@ -4,23 +4,23 @@ import { motion } from "framer-motion";
 
 function Sobre() {
   return (
-    <motion.div
-      initial={{ opacity: 0, x: -100 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -100 }}
-      transition={{ duration: 1 }}>
-      <section
-        id="Sobre"
-        className="w-full flex flex-col min-h-screen text-zinc-100  ">
-        <div className="pt-[55px] container mx-auto min-h-screen border-t border-zinc-800 py-8">
+    <section
+      id="Sobre"
+      className="w-full flex flex-col min-h-screen text-zinc-100  ">
+      <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}>
+        <div className="mt-[55px] pt-[50px] container mx-auto min-h-screen border-t border-zinc-800 py-8">
           <div className="w-full flex md:flex-row flex-col justify-center items-start h-full px-4 md:px-8">
             <div className="w-full md:w-1/2 mb-8 ">
-              <div className="flex items-center justify-center w-full mb-8">
+              <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
                 <h1 className="text-6xl font-bold mr-4">Culturarte</h1>
-                <div className="w-[90%] border-t  border-red-400"></div>
+                <div className="w-[50%] md:w-[90%] border-t  border-red-400"></div>
               </div>
               <div>
-                <p className="text-base sm:text-md md:text-lg font-sans">
+                <p className="text-base  md:text-md  md:text-lg font-sans">
                   Música. Culinária. Artesanato. Artes Visuais e Literatura. Do
                   jeito que a gente gosta, em um espaço aberto, totalmente
                   gratuito, potencializando a Economia Criativa local, recebendo
@@ -45,7 +45,7 @@ function Sobre() {
               </div>
             </div>
             <div className="w-full md:w-1/2">
-              <div className="md:w-[500px] h-auto border-4 rounded-xl overflow-hidden border-transparent mx-auto">
+              <div className="lg:w-[500px] h-auto border-4 rounded-xl overflow-hidden border-transparent mx-auto">
                 <video autoPlay loop muted>
                   <source src="/images/Culturarte.mp4" type="video/mp4" />
                 </video>
@@ -62,8 +62,8 @@ function Sobre() {
             <li>SHOWS</li>
           </ul>{" "}
         </div>
-      </section>
-    </motion.div>
+      </motion.div>
+    </section>
   );
 }
 
