@@ -15,6 +15,15 @@ import WendelSalles from "./artistas/CULTURARTE/Wendel-deLa-Salles.jpeg";
 import GisBranco from "./artistas/CULTURARTE/GisBranco.jpeg";
 import Klicia from "./artistas/CULTURARTE/Klicia.jpeg";
 import CeliaMaria from "./artistas/CULTURARTE/Celia-Maria.jpeg";
+import ForroTripa from "./artistas/CULTURARTE/Forro-Tripa-de-Bode.jpeg";
+import BoiEncanto from "./artistas/CULTURARTE/Boi-Encanto-Lencois.jpeg";
+import AnastaciaLia from "./artistas/CULTURARTE/AnastaciaLia.jpeg";
+import Paulao from "./artistas/CULTURARTE/Paulao.jpeg";
+import GildomarMarinho from "./artistas/CULTURARTE/GildomarMarinho.jpeg";
+import Daffe from "./artistas/CULTURARTE/Daffe.jpeg";
+import SandraDuailibe from "./artistas/CULTURARTE/SandraDuailibe.jpeg";
+import LucianaPinheiro from "./artistas/CULTURARTE/lucianapinheiro.jpeg";
+import RegianeAraujo from "./artistas/CULTURARTE/RegianeAraujo.webp";
 export {
   Indiana,
   ArmandinhoPowell,
@@ -33,4 +42,13 @@ export {
   GisBranco,
   Klicia,
   CeliaMaria,
+  ForroTripa,
+  BoiEncanto,
+  AnastaciaLia,
+  Paulao,
+  GildomarMarinho,
+  Daffe,
+  SandraDuailibe,
+  RegianeAraujo,
+  LucianaPinheiro,
 };

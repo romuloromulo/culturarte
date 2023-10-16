@@ -12,11 +12,14 @@ function Sobre() {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}>
-        <div className="mt-[55px] pt-[50px] container mx-auto min-h-screen border-t border-zinc-800 py-8">
-          <div className="w-full flex md:flex-row flex-col justify-center items-start h-full px-4 md:px-8">
+        <div className="container mx-auto min-h-screen border-t border-zinc-800 py-8">
+          <div className="w-full md:mt-[55px]  flex md:flex-row flex-col justify-center items-start h-full px-4 md:px-8">
             <div className="w-full md:w-1/2 mb-8 ">
               <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
-                <h1 className="text-6xl font-bold mr-4">Culturarte</h1>
+                <div className="flex flex-col items-start justify-center ">
+                  <h2 className="mr-4">Sobre</h2>
+                  <h1 className="text-6xl font-bold mr-4">Culturarte</h1>
+                </div>
                 <div className="w-[50%] md:w-[90%] border-t  border-red-400"></div>
               </div>
               <div>
@@ -54,7 +57,7 @@ function Sobre() {
           </div>
         </div>
         <div className="w-full  bg-purple-500 bg-opacity-50 p-4 md:p-6 my-8 shadow-md shadow-zinc-800 ">
-          <ul className="flex gap-2  md:gap-6 lg:gap-8 items-center justify-center text-sm md:text-lg lg:text-xl mx-auto md:font-bold container">
+          <ul className="flex space-x-2  md:space-x-6 lg:space-x-8 items-center justify-center text-sm md:text-lg lg:text-xl mx-auto md:font-bold container">
             <li>ARTESANATO</li>
             <li>EXPOSIÇÕES</li>
             <li>COMIDA TÍPICA</li>

@@ -17,15 +17,15 @@ function Footer() {
       <div className="border-t w-full border-zinc-900 my-10" />
       <div
         id="Teste"
-        className="container mt-2 px-4 mx-auto text-white text-2xl grid-cols-2  md:grid-cols-3 grid justify-items-center items-center justify-around ">
-        <div className="w-auto flex flex-col items-start">
-          <div className="md:mb-12">
+        className="container mt-2 px-4 mx-auto text-white text-2xl grid-cols-2  md:grid-cols-3 grid justify-items-center items-start ">
+        <div className="w-auto flex flex-col items-start justify-center">
+          <div className="w-auto">
             <Link href="/">
               <Image src={Logo} width={200} height={200} />{" "}
             </Link>
           </div>
-          <div className="text-center text-zinc-100">
-            <h1 className="mb-14 mt-4  md:-mt-10 font-semibold text-sm">
+          <div className="text-center text-zinc-100 ">
+            <h1 className="font-semibold text-sm">
               Música <span className="text-red-600">•</span> Culinária{" "}
               <span className="text-orange-500">•</span> Artesanato{" "}
               <span className="text-purple-600">•</span> Artes Visuais{" "}
@@ -33,12 +33,12 @@ function Footer() {
             </h1>
           </div>
         </div>
-        <div className="flex flex-col items-start jus">
+        <div className="flex flex-col">
           {" "}
           <div className="text-sm md:text-base mx-auto mb-1">Nos siga!</div>
           <div
-            id="MenuEsquerda"
-            className="flex items-center center gap-4 text-black">
+            id="Meio"
+            className="flex items-center center space-x-4 text-black">
             <Link
               href="https://www.instagram.com/culturarte_maranhao/"
               target="_blank">
@@ -55,7 +55,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex my-auto ">
           <div>Contato:</div>{" "}
           <div className="ml-2 hover:text-yellow-500 duration-300">
             <Link href="mailto:tutucaviana@yahoo.com.br">

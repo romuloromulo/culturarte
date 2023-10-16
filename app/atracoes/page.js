@@ -51,7 +51,7 @@ function Atrações() {
     <MainLayout>
       <div id="Atrações" className="min-h-screen relative pb-10">
         <div className="container mx-auto w-full flex items-center justify-center flex-col px-10 md:pt-[75px]">
-          <div className="md:w-auto md:h-auto  w-[200px] pt-12">
+          <div className="md:w-auto md:h-auto mt-[75px] md:mt-2 w-[200px] pt-12">
             <Image
               src={Logo}
               width={250}

@@ -26,7 +26,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div id="MenuMeio">
-          <ul className="flex justify-center items-center sm:gap-4 md:gap-8 lg:gap-12 text-zinc-100 text-lg">
+          <ul className="flex justify-center items-center sm:space-x-4 md:space-x-8 lg:space-x-12 text-zinc-100 text-lg">
             <Link href="/">
               <li className=" ">
                 <p className="relative hover:text-white group p-2">
@@ -61,7 +61,7 @@ export default function Navbar() {
             </Link>
           </ul>
         </div>
-        <div id="MenuEsquerda" className="flex items-center center gap-4">
+        <div id="MenuEsquerda" className="flex items-center center space-x-4">
           <Link
             href="https://www.instagram.com/culturarte_maranhao/"
             target="_blank">
