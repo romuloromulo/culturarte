@@ -24,6 +24,10 @@ function Atrações() {
                 layout="fill"
                 objectFit="cover"
                 className="shadow-lg"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="/images/logos/Marca.png"
+                sizes="(max-width: 750px)50vw, (max-width:1200px) 30vw, 20vw"
               />
               <motion.div
                 initial={{ opacity: 0 }}
@@ -49,7 +53,13 @@ function Atrações() {
 
   return (
     <MainLayout>
-      <div id="Atrações" className="min-h-screen relative pb-10">
+      <motion.div
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}
+        id="Atrações"
+        className="min-h-screen relative pb-10">
         <div className="container mx-auto w-full flex items-center justify-center flex-col px-10 md:pt-[75px]">
           <div className="md:w-auto md:h-auto mt-[75px] md:mt-2 w-[200px] pt-12">
             <Image
@@ -92,7 +102,7 @@ function Atrações() {
         <div className="container mx-auto z-30 grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center items-center">
           {renderAtraçoes}
         </div>
-      </div>
+      </motion.div>
     </MainLayout>
   );
 }

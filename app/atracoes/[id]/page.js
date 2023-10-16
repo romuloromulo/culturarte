@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { atracoes } from "@/data/AtracoesData";
@@ -7,13 +8,18 @@ import BaseEsquerda from "../../../public/images/logos/Base-Esquerda-Horizontal.
 import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 import { SiInstagram, SiYoutube, SiSpotify } from "react-icons/si";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function Page({ params }) {
   const artista = atracoes.find((item) => item.id === params.id);
-  const socialLinks = {};
   return (
     <MainLayout>
-      <div className="min-h-screen pt-[75px] container mx-auto pb-24">
+      <motion.div
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}
+        className="min-h-screen pt-[75px] container mx-auto pb-24">
         <div className="w-full justify-center mt-12 mb-10 items-center flex md:max-h-[250px]">
           {/* Logo com tamanho fixo de 250x250 */}
           <div className="md:w-auto md:h-auto w-[250px]">
@@ -131,7 +137,7 @@ function Page({ params }) {
             </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </MainLayout>
   );
 }

@@ -166,20 +166,7 @@ export const atracoes = [
     instagram: "https://www.instagram.com/sandraduailibe/",
     estado: "MA",
   },
-  {
-    id: "Daffe",
-    nome: "Daffé",
-    release: "",
-    imagem: Daffe,
-    data: "11/11",
-    lugar: "Convento das Mercês, São Luís",
-    horario: "20h",
-    spotify:
-      "https://open.spotify.com/intl-pt/artist/5fRypVuQfrmK1ZCxkCgMLt?si=wmcvDN5rS2OnWOOegB-gNw",
-    youtube: "https://www.youtube.com/@RimaThe",
-    instagram: "",
-    estado: "MA",
-  },
+
   {
     id: "Luciana-Pinheiro ",
     nome: "Luciana Pinheiro",
