@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import MainLayout from "../layout/MainLayout";
@@ -6,14 +7,20 @@ import BaseDireita from "../../public/images/logos/Base-Direita-Horizontal.png";
 import BaseEsquerda from "../../public/images/logos/Base-Esquerda-Horizontal.png";
 import BaseEsquerdaVertical from "../../public/images/logos/Base-Esquerda.png";
 import Logo from "../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
-
+import { motion } from "framer-motion";
 import { BiDownArrow } from "react-icons/bi";
 
 function Programação() {
   return (
     <MainLayout>
-      <div id="Programação" className="min-h-screen relative pt-[75px]">
-        <div className="w-full justify-center mt-12 mb-10 items-center flex md:max-h-[250px] ">
+      <motion.div
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}
+        id="Programação"
+        className="min-h-screen relative pt-[75px]">
+        <div className="w-full justify-center mt-12  items-center flex md:max-h-[250px] ">
           <div className="md:w-auto md:h-auto  w-[200px]">
             <Image
               src={Logo}
@@ -71,7 +78,7 @@ function Programação() {
               <BiDownArrow size={22} />
             </p>
           </div>
-          <div className="w-full flex flex-col p-8  mx-4 rounded-xl text-zinc-800 shadow-md mb-8 ">
+          <div className="w-full flex flex-col p-4  mx-4 rounded-xl text-zinc-800 shadow-md mb-8 ">
             <div>
               <ul>
                 {programaçãoBarreirinhas.map((dia) => (
@@ -164,7 +171,7 @@ function Programação() {
             className="left-0 botton-0 mt-[-15%] hidden md:block"
           />
         </div>
-      </div>
+      </motion.div>
     </MainLayout>
   );
 }
