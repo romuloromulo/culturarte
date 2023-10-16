@@ -168,7 +168,7 @@ export const atracoes = [
   },
 
   {
-    id: "Luciana-Pinheiro ",
+    id: "Luciana-Pinheiro",
     nome: "Luciana Pinheiro",
     release: "",
     imagem: LucianaPinheiro,

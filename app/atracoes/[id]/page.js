@@ -56,18 +56,18 @@ function Page({ params }) {
           className="px-5 md:px-10 flex md:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full">
           <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full md:translate-y-[25%]">
             <div className="text-3xl text-center md:text-left md:text-6xl font-bold text-yellow-500 z-20 w-full">
-              {artista.nome}
+              {artista?.nome}
             </div>
             <div className="text-teal-400 text-xl font-semibold">
-              {artista.estado}
+              {artista?.estado}
             </div>
             <div className="text-md text-zinc-100 text-start mt-4">
-              {artista.release}
+              {artista?.release}
             </div>
             <ul className="md:flex gap-4 mt-4 hidden">
               {artista?.instagram === "" ? null : (
                 <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
-                  <Link href={artista.instagram}>
+                  <Link href={artista?.instagram}>
                     <SiInstagram size={30} />
                   </Link>
                 </li>
@@ -85,7 +85,7 @@ function Page({ params }) {
 
               {artista?.spotify === "" ? null : (
                 <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
-                  <Link href={artista.spotify}>
+                  <Link href={artista?.spotify}>
                     <SiSpotify size={30} />
                   </Link>
                 </li>
@@ -95,11 +95,11 @@ function Page({ params }) {
           <div className="w-auto mx-auto md:w-1/2 order-first md:order-last flex flex-col items-center">
             <div className="p-4 md:p-8 border-l-4 border-l-yellow-500 border-r-4 border-r-red-600 border-t-red-600 border-t-4 border-b-yellow-500 border-b-4 rounded-full">
               <div
-                key={artista.id}
+                key={artista?.id}
                 className="z-10 w-[250px] h-[250px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden m-1 relative p-8">
                 <Image
-                  src={artista.imagem}
-                  alt={`Foto de ${artista.nome}`}
+                  src={artista?.imagem}
+                  alt={`Foto de ${artista?.nome}`}
                   layout="fill"
                   objectFit="cover"
                   className="shadow-lg absolute top-0 left-0"
@@ -128,7 +128,7 @@ function Page({ params }) {
 
                 {artista?.spotify === "" ? null : (
                   <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
-                    <Link href={artista.spotify}>
+                    <Link href={artista?.spotify}>
                       <SiSpotify size={30} />
                     </Link>
                   </li>
