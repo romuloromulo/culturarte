@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div
       id="NavBar"
-      className="bg-zinc-900  z-50 w-full fixed flex md:justify-center md:items-center  top-0">
+      className="bg-black  z-50 w-full fixed flex md:justify-center md:items-center  top-0">
       <nav className="max-w-[1200px] w-full lg:px-15 p-1  justify-between items-center px-10 hidden  sm:flex">
         <div id="MenuEsquerda">
           <Link href="/">
@@ -26,7 +26,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div id="MenuMeio">
-          <ul className="flex justify-center items-center gap-12 text-zinc-100 text-lg">
+          <ul className="flex justify-center items-center sm:gap-4 md:gap-8 lg:gap-12 text-zinc-100 text-lg">
             <Link href="/">
               <li className=" ">
                 <p className="relative hover:text-white group p-2">

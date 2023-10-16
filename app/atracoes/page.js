@@ -4,6 +4,7 @@ import MainLayout from "../layout/MainLayout";
 import Image from "next/image";
 import BaseDireita from "../../public/images/logos/Base-Direita-Horizontal.png";
 import BaseEsquerda from "../../public/images/logos/Base-Esquerda-Horizontal.png";
+import Logo from "../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 import { atracoes } from "@/data/AtracoesData";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -49,7 +50,16 @@ function Atrações() {
   return (
     <MainLayout>
       <div id="Atrações" className="min-h-screen relative pb-10">
-        <div className="container mx-auto w-full flex items-center justify-center flex-col lg:flex-row px-10 md:pt-[75px]">
+        <div className="container mx-auto w-full flex items-center justify-center flex-col px-10 md:pt-[75px]">
+          <div className="md:w-auto md:h-auto  w-[200px] pt-12">
+            <Image
+              src={Logo}
+              width={250}
+              height={250}
+              className="mx-auto z-10"
+              alt="Logo Culturarte"
+            />
+          </div>
           <div className="">
             <Image
               src={BaseDireita}
@@ -66,19 +76,17 @@ function Atrações() {
               className="left-0 top-0 absolute md:mt-[75px] w-[120px]  h-[120px] md:w-auto md:h-auto"
             />
           </div>
-          <div className="w-full mt-16 flex md:flex-row flex-col items-center justify-between gap-4 mb-4 md:mb-0 ">
-            <div className="sm:w-[90%] w-[50%] hidden md:block border-b mt-[-1rem] md:mt-0 mb-4 md:mb-0 border-red-400"></div>
-            <div className="relative p-5 md:p-12 md:pr-0 ">
-              <div className="z-30">
-                <div className="text-5xl md:text-6xl font-bold text-white relative z-30 mb-1">
-                  Atrações
-                </div>
-                <h2 className="text-md font-light text-white text-center w-full relative z-30">
-                  Conheça as atrações dessa edição!
-                </h2>
+          <div className="w-full mt-16 flex md:flex-row flex-col items-center justify-center  mb-4 md:mb-0 ">
+            <div className=" w-[20%] hidden md:block border-b mt-[-1rem] md:mt-0 mb-4 md:mb-0 border-red-400"></div>
+            <div className="relative  flex flex-col w-auto justify-center  md:pr-0 mb-12 ">
+              <div className="text-5xl md:text-6xl font-bold text-white relative z-30 mb-1">
+                Atrações
               </div>
+              <h2 className="text-md font-light text-white text-center w-full relative z-30">
+                Conheça as atrações dessa edição!
+              </h2>
             </div>
-            <div className="sm:w-[90%] w-[50%] border-b mt-[-1rem] md:mt-0 mb-4 md:mb-0 border-red-400"></div>
+            <div className=" w-[20%] border-b mt-[-1rem] md:mt-0 mb-4 md:mb-0 border-red-400"></div>
           </div>
         </div>
         <div className="container mx-auto z-30 grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center items-center">

@@ -73,7 +73,7 @@ export const atracoes = [
   },
   {
     id: "Desengaiola",
-    nome: "Desengaiola",
+    nome: "Desengaiola com Alfredo Del-Penho, João Cavalcanti, Moyseis Marques e Pedro Miranda ",
     release: "",
     imagem: Desengaiola,
     data: "11/11",

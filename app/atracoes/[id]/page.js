@@ -13,7 +13,7 @@ function Page({ params }) {
   const socialLinks = {};
   return (
     <MainLayout>
-      <div className="min-h-screen pt-[75px] pb-24">
+      <div className="min-h-screen pt-[75px] container mx-auto pb-24">
         <div className="w-full justify-center mt-12 mb-10 items-center flex md:max-h-[250px]">
           {/* Logo com tamanho fixo de 250x250 */}
           <div className="md:w-auto md:h-auto w-[250px]">
@@ -48,8 +48,8 @@ function Page({ params }) {
         <div
           id="Container"
           className="px-5 md:px-10 flex md:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full">
-          <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full ">
-            <div className="text-3xl text-center md:text-left md:text-6xl font-bold text-yellow-500 z-20 w-full ">
+          <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full translate-y-[25%]">
+            <div className="text-3xl text-center md:text-left md:text-6xl font-bold text-yellow-500 z-20 w-full">
               {artista.nome}
             </div>
             <div className="text-teal-400 text-xl font-semibold">
