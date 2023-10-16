@@ -17,10 +17,10 @@ function Atrações() {
           key={index}
           className="z-10 rounded-full  w-[200px] h-[200px] flex items-center justify-center overflow-hidden m-1 mb-2 relative">
           <div className="w-full h-full relative">
-            <Link href={`atracoes/${item.id}`} className="group ">
+            <Link href={`atracoes/${item?.id}`} className="group ">
               <Image
-                src={item.imagem}
-                alt={`Foto de ${item.nome}`}
+                src={item?.imagem}
+                alt={`Foto de ${item?.nome}`}
                 layout="fill"
                 objectFit="cover"
                 className="shadow-lg"
@@ -39,13 +39,13 @@ function Atrações() {
           </div>
         </div>
         <Link
-          href={`artista/${item.id}`}
+          href={`atracoes/${item?.id}`}
           className="flex-col items-center justify-center">
           <div className="text-lg text-yellow-500 hover:text-zinc-100 hover:-translate-y-2 duration-300">
-            {item.nome}
+            {item?.nome}
           </div>{" "}
         </Link>
-        <div className="text-teal-400">{item.estado}</div>
+        <div className="text-teal-400">{item?.estado}</div>
         <div className="border-b mx-auto mt-1 border-zinc-700 w-[2rem]" />
       </div>
     ) : null

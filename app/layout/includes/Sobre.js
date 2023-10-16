@@ -1,8 +1,40 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 function Sobre() {
+  const typeText = (
+    <Typewriter
+      options={{ autoStart: true, loop: true, cursor: "" }}
+      onInit={(typewriter) => {
+        typewriter
+          .typeString("Culturarte")
+          .pauseFor(1500)
+          .deleteChars(3)
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Arte")
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Música")
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Culinária")
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Artesanato ")
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Artes Visuais")
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Literatura")
+          .pauseFor(1500)
+          .start();
+      }}
+    />
+  );
   return (
     <section
       id="Sobre"
@@ -16,11 +48,13 @@ function Sobre() {
           <div className="w-full md:mt-[55px]  flex md:flex-row flex-col justify-center items-start h-full px-4 md:px-8">
             <div className="w-full md:w-1/2 mb-8 ">
               <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
-                <div className="flex flex-col items-start justify-center ">
+                <div className="flex flex-col w-full items-start justify-start ">
                   <h2 className="mr-4">Sobre</h2>
-                  <h1 className="text-6xl font-bold mr-4">Culturarte</h1>
+                  <h1 className="text-6xl font-bold mr-2 whitespace-nowrap">
+                    {typeText}
+                  </h1>
                 </div>
-                <div className="w-[50%] md:w-[90%] border-t  border-red-400"></div>
+                <div className="w-[50%] md:w-[95%] border-t  border-red-400"></div>
               </div>
               <div>
                 <p className="text-base  md:text-md  md:text-lg font-sans">
