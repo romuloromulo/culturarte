@@ -17,7 +17,7 @@ function Footer() {
       <div className="border-t w-full border-zinc-900 my-10" />
       <div
         id="Teste"
-        className="container mt-2 px-4 mx-auto text-white text-2xl grid-cols-2  md:grid-cols-3 grid justify-items-center items-start ">
+        className="container mt-2 px-4 mx-auto text-white text-2xl grid-cols-2  md:grid-cols-3 gap-4 md:gap-0 grid justify-items-center items-start ">
         <div className="w-auto flex flex-col items-start justify-center">
           <div className="w-auto">
             <Link href="/">

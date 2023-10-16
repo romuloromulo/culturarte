@@ -48,9 +48,9 @@ function Sobre() {
           <div className="w-full md:mt-[55px]  flex md:flex-row flex-col justify-center items-start h-full px-4 md:px-8">
             <div className="w-full md:w-1/2 mb-8 ">
               <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
-                <div className="flex flex-col w-full items-start justify-start ">
+                <div className="flex flex-col w-full  items-center md:items-start justify-start ">
                   <h2 className="mr-4">Sobre</h2>
-                  <h1 className="text-6xl font-bold mr-2 whitespace-nowrap">
+                  <h1 className="text-5xl md:text-6xl font-bold mr-2 whitespace-nowrap">
                     {typeText}
                   </h1>
                 </div>
