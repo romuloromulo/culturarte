@@ -106,7 +106,7 @@ export default function Navbar() {
               </p>
             </li>
           </Link>
-          <Link href="#Sobre" className="p-4 rounded-full shadow-lg ">
+          <Link href="/#Sobre" className="p-4 rounded-full shadow-lg ">
             <li className=" ">
               <p className=" relative p-2 hover:text-white group">
                 Sobre
