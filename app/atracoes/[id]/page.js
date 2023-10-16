@@ -48,7 +48,7 @@ function Page({ params }) {
         <div
           id="Container"
           className="px-5 md:px-10 flex md:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full">
-          <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full translate-y-[25%]">
+          <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full md:translate-y-[25%]">
             <div className="text-3xl text-center md:text-left md:text-6xl font-bold text-yellow-500 z-20 w-full">
               {artista.nome}
             </div>
@@ -60,21 +60,17 @@ function Page({ params }) {
             </div>
             <ul className="md:flex gap-4 mt-4 hidden">
               {artista?.instagram === "" ? null : (
-                <li>
-                  <Link
-                    href={artista.instagram}
-                    className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                  <Link href={artista.instagram}>
                     <SiInstagram size={30} />
                   </Link>
                 </li>
               )}
 
               {artista?.youtube === "" ? null : (
-                <li>
+                <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
                   {" "}
-                  <Link
-                    href={artista.youtube}
-                    className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                  <Link href={artista.youtube}>
                     {" "}
                     <SiYoutube size={30} />
                   </Link>{" "}
@@ -82,10 +78,8 @@ function Page({ params }) {
               )}
 
               {artista?.spotify === "" ? null : (
-                <li>
-                  <Link
-                    href={artista.spotify}
-                    className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                  <Link href={artista.spotify}>
                     <SiSpotify size={30} />
                   </Link>
                 </li>
@@ -109,21 +103,17 @@ function Page({ params }) {
             <ul className="flex gap-4 mt-4 md:hidden">
               <>
                 {artista?.instagram === "" ? null : (
-                  <li>
-                    <Link
-                      href={artista.instagram}
-                      className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                  <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                    <Link href={artista.instagram}>
                       <SiInstagram size={30} />
                     </Link>
                   </li>
                 )}
 
                 {artista?.youtube === "" ? null : (
-                  <li>
+                  <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
                     {" "}
-                    <Link
-                      href={artista.youtube}
-                      className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                    <Link href={artista.youtube}>
                       {" "}
                       <SiYoutube size={30} />
                     </Link>{" "}
@@ -131,10 +121,8 @@ function Page({ params }) {
                 )}
 
                 {artista?.spotify === "" ? null : (
-                  <li>
-                    <Link
-                      href={artista.spotify}
-                      className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                  <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
+                    <Link href={artista.spotify}>
                       <SiSpotify size={30} />
                     </Link>
                   </li>
