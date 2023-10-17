@@ -31,7 +31,9 @@ export const atracoes = [
   {
     id: "Indiana-Nomma",
     nome: "Indiana Nomma canta Mercedes Sosa",
-    release: "",
+    release: `A cantora de jazz e música latino-americana Indiana Nomma tem 6 álbuns lançados desde 2015, incluindo "UNEXPECTED" e "LESSONS IN LOVE". Ela foi finalista em importantes prêmios de música brasileira em 2016 e 2018, e seu álbum "INDIANA NOMMA" alcançou o top 10 das vendas no iTunes em Israel em 2017. Seu álbum mais recente, "MERCEDES SOSA: A VOZ DOS SEM VOZ", recebeu elogios da crítica, com 4 estrelas de 5.
+    Nascida em Honduras e radicada no Brasil, Indiana Nomma apresenta o Tributo a Mercedes Sosa há 23 anos, oficialmente reconhecido pela família de Mercedes Sosa. Ela também representou o Brasil em eventos internacionais e colaborou com diversos artistas, incluindo Milton Nascimento, Daniela Mercury e outros. Além disso, oferece workshops sobre a indústria musical e o ofício de cantora. 
+    Indiana Nomma é conhecida por sua voz grave e versatilidade em diversos estilos, incluindo jazz, bossa nova e música latino-americana, cantando em vários idiomas. Seus shows são marcados por improvisações e sua habilidade com o trompete de boca, criando atrações hipnotizantes.`,
     imagem: Indiana,
     data: "10/11",
     lugar: "Convento das Mercês, São Luís",
@@ -45,7 +47,8 @@ export const atracoes = [
   {
     id: "ArmandinhoPowell",
     nome: "Armandinho Macedo e Marcel Powell",
-    release: "",
+    release:
+      "Dois virtuoses que se encontram para homenagear Baden Powell, considerado o maior violonista brasileiro de todos os tempos. É o“Baden Powell Tribute”. Armandinho Macêdo é filho de Osmar Macêdo, inventor do Trio Elétrico junto com Dodô. Na década de 70 criou o grupo “A Cor do Som”, de enorme sucesso em todo o Brasil, entre outras atuações junto a inúmeros cantores e cantoras consagrados. Ele fez, inclusive, turnês com Stanley Jordan e Stanley Clarke.Marcel Powell é filho de Baden Powell, considerado o maior violonista brasileiro de todos os tempos. Por influência dele, começou a estudar violão ainda criança. Marcel morou na França e na Alemanha. Tem discos lançados no Brasil, Europa e Japão e já atuou em 16 países. Marcel Powell e Armandinho Macêdo misturam linguagens musicais mergulhando na fantástica escola violonística de Baden, habilmente trazida com maestria por Marcel, se funde com a linguagem dos trios elétricos da Bahia criada por Dodô e Osmar, e continuada com genialidade por Armandinho.",
     imagem: ArmandinhoPowell,
     data: "02/11",
     lugar: "Praça da Matriz, Barreirinhas",
@@ -280,7 +283,8 @@ export const atracoes = [
   {
     id: "RuimarioIsrael",
     nome: "Duo Israel Dantas e Rui Mário",
-    release: "",
+    release:
+      "Projeto Dois Tons - Israel Dantas (guitarras) e Rui Mário (acordeon) - Israel Dantas é graduado em Licenciatura em Música pela UFMA. Começou a estudar violão clássico, na Escola de Música do Estado do Maranhão “Lilah Lisboa”. E entre muitas descobertas no universo musical, iniciou carreira como músico e arranjador aos 15 anos. Morou no Rio de Janeiro, onde atuou como professor e músico acompanhando Elza Soares, Alcione, Maria Bethânia, Miúcha, Vander Lee, Dominguinhos, Elba Ramalho, Rita Benneditto, entre outros grandes nomes. O currículo é vasto com passagens em festivais internacionais como Montreux Jazz Festival ao Lençóis Jazz & Blues Festival. Rui Mário é graduado em Música pela UFMA. Vem de uma família de artistas, o pai é o sanfoneiro “Seu Raimundinho”, grande mentor e inspiração para a carreira artística marcada por passagens em festivais e diversas bandas renomadas. Esteve ao lado de Dominguinhos. Recebeu o Prêmio Universidade FM. E atua como diretor musical, entre os trabalhos destacam-se Alexandra Nícolas, Josias Sobrinho, Chico Saldanha e o saudoso Antonio Vieira.",
     imagem: RuimarioIsrael,
     data: "02/11",
     lugar: "Praça da Matriz, Barreirinhas",
@@ -291,9 +295,9 @@ export const atracoes = [
     estado: "MA",
   },
   {
-    id: "SpokFrevoQuinteto",
-    nome: "Spok Frevo Quinteto",
-    release: "",
+    id: "Spok Quinteto",
+    nome: "Spok Quinteto",
+    release: `O Spok Quinteto é uma renomada formação musical liderada pelo maestro Cláudio Spok. Originária de Igarassu, a banda é conhecida por sua notável habilidade técnica e versatilidade musical. Com uma carreira que abrange décadas, o Spok Quinteto oferece um som diversificado, influenciado pela cultura do Frevo e outras tradições musicais brasileiras. Sua música é apreciada tanto nacional quanto internacionalmente, tornando o grupo uma parte significativa da cena musical do Brasil. Além disso, o maestro Spok e o quinteto estão envolvidos em projetos educacionais e culturais que contribuem para o desenvolvimento de jovens talentos musicais e promovem a preservação da rica herança musical do país.`,
     imagem: SpokFrevoQuinteto,
     data: "04/11",
     lugar: "Praça da Matriz, Barreirinhas",

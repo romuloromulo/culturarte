@@ -90,7 +90,7 @@ export default function Navbar() {
       <div
         className={
           openNav
-            ? "fixed left-0 top-0 w-screen sm:hidden h-full bg-zinc-900 border-2  ease-linear duration-500 z-50 p-10"
+            ? "fixed left-0 top-0 w-screen sm:hidden h-[90%] bg-zinc-900 border-2  ease-linear duration-500 z-50 p-10"
             : "fixed left-[-100%] top-0 p-10 ease-out duration-500 z-50"
         }
         onClick={handleNav}>

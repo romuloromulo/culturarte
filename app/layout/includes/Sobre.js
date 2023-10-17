@@ -45,8 +45,8 @@ function Sobre() {
         exit={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}>
         <div className="container mx-auto min-h-screen border-t border-zinc-800 py-8">
-          <div className="w-full md:mt-[55px]  flex md:flex-row flex-col justify-center items-start h-full px-4 md:px-8">
-            <div className="w-full md:w-1/2 mb-8 ">
+          <div className="w-full md:mt-[55px]   flex lg:flex-row flex-col justify-center items-center h-full px-4 md:px-8">
+            <div className="w-full lg:w-1/2 mb-8 ">
               <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
                 <div className="flex flex-col w-full  items-center md:items-start justify-start ">
                   <h2 className="mr-4">Sobre</h2>
@@ -81,7 +81,7 @@ function Sobre() {
                 </p>
               </div>
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="md:w-auto lg:w-1/2">
               <div className="lg:w-[500px] h-auto border-4 rounded-xl overflow-hidden border-transparent mx-auto">
                 <video autoPlay loop muted>
                   <source src="/images/Culturarte.mp4" type="video/mp4" />

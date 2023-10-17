@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import FooterP from "../../../public/images/logos/patrocineo-footer.jpeg";
+import patrocineo from "../../../public/images/Layout/marcas-1.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
 import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
@@ -9,9 +10,20 @@ import Link from "next/link";
 function Footer() {
   return (
     <section id="Footer" className="flex flex-col itesm-center">
-      <div id="Imagem" className="w-full ">
-        <div className="relative w-full mx-auto md:container bg-gray-400  mb-12">
-          <Image src={FooterP} className="object-cover md:object-contain" />
+      <div id="Imagem" className="w-full">
+        <div className="relative w-full mx-auto md:container">
+          <Image
+            src={patrocineo}
+            className="object-cover md:object-contain hidden sm:block"
+            loading="lazy"
+            sizes="(max-width: 750px)50vw, (max-width:1200px) 70vw, 60vw"
+          />
+          <Image
+            src={FooterP}
+            className="object-cover md:object-contain sm:hidden"
+            loading="lazy"
+            sizes="(max-width: 750px)100vw, (max-width:1200px) 40vw, 30vw"
+          />
         </div>
       </div>
       <div className="border-t w-full border-zinc-900 my-10" />
