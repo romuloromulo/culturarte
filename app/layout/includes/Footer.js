@@ -9,9 +9,9 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <section id="Footer" className="flex flex-col itesm-center">
-      <div id="Imagem" className="w-full">
-        <div className="relative w-full mx-auto md:container">
+    <section id="Footer" className="flex flex-col items-center">
+      <div id="Imagem" className="container">
+        <div className="relative w-full mx-auto md:container mt-32">
           <Image
             src={patrocineo}
             className="object-cover md:object-contain hidden sm:block"
