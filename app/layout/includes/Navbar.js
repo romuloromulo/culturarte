@@ -5,7 +5,7 @@ import Logo from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo
 import logoNav from "../../../public/images/logos/Marca_Culturarte-Horizontal-Fundo_escuro-.png";
 import baseDireita from "../../../public/images/logos/Base-direita.png";
 import { SiInstagram, SiFacebook } from "react-icons/si";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -82,7 +82,7 @@ export default function Navbar() {
       <nav
         className={` ${
           openNav && "hidden"
-        }block sm:hidden bg-zinc-100 bg-opacity-70 shadow-sm p-5 fixed m-2 rounded-full cursor-pointer`}
+        }block sm:hidden bg-yellow-500 bg-opacity-90 shadow-sm p-5 fixed m-2 rounded-full cursor-pointer right-1`}
         onClick={handleNav}>
         <AiOutlineMenu size={22} className="text-black" />
       </nav>
@@ -90,11 +90,14 @@ export default function Navbar() {
       <div
         className={
           openNav
-            ? "fixed left-0 top-0 w-screen sm:hidden h-[90%] bg-zinc-900 border-2  ease-linear duration-500 z-50 p-10"
-            : "fixed left-[-100%] top-0 p-10 ease-out duration-500 z-50"
+            ? "fixed left-0 top-0 w-screen sm:hidden h-[80%] bg-black ease-linear duration-500 z-50 p-10 overflow-hidden"
+            : "fixed  top-[-100%] p-10 ease-out duration-500 z-50"
         }
         onClick={handleNav}>
-        <Image src={logoNav} width={130} height={130} alt="logo" />
+        <div className="flex justify-between">
+          <Image src={logoNav} width={100} height={100} alt="logo" />
+          <AiOutlineClose size={30} className="text-white cursor-pointer" />
+        </div>
         <ul
           className="flex min-w-[12rem] w-[20%] flex-col mt-8 font-bold text-lg text-zinc-200
          gap-2">
