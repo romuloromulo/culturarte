@@ -295,7 +295,7 @@ export const atracoes = [
     estado: "MA",
   },
   {
-    id: "Spok Quinteto",
+    id: "Spok-Quinteto",
     nome: "Spok Quinteto",
     release: `O Spok Quinteto é uma renomada formação musical liderada pelo maestro Cláudio Spok. Originária de Igarassu, a banda é conhecida por sua notável habilidade técnica e versatilidade musical. Com uma carreira que abrange décadas, o Spok Quinteto oferece um som diversificado, influenciado pela cultura do Frevo e outras tradições musicais brasileiras. Sua música é apreciada tanto nacional quanto internacionalmente, tornando o grupo uma parte significativa da cena musical do Brasil. Além disso, o maestro Spok e o quinteto estão envolvidos em projetos educacionais e culturais que contribuem para o desenvolvimento de jovens talentos musicais e promovem a preservação da rica herança musical do país.`,
     imagem: SpokFrevoQuinteto,

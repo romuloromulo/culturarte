@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 
 function Page({ params }) {
   const artista = atracoes.find((item) => item.id === params.id);
+  console.log(artista);
   return (
     <MainLayout>
       <motion.div
@@ -53,7 +54,7 @@ function Page({ params }) {
         </div>
         <div
           id="Container"
-          className="px-5 md:px-10 flex md:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full md:pt-[30px]">
+          className="px-5 md:px-10 flex lg:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full md:pt-[30px]">
           <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full ">
             <div className="text-3xl text-center md:text-left md:text-6xl font-bold text-yellow-500 z-20 w-full">
               {artista?.nome}
@@ -64,7 +65,7 @@ function Page({ params }) {
             <div className="text-md text-zinc-100 text-start mt-4">
               {artista?.release}
             </div>
-            <ul className="md:flex gap-4 mt-4 hidden">
+            <ul className="lg:flex gap-4 mt-4 hidden">
               {artista?.instagram === "" ? null : (
                 <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
                   <Link href={artista?.instagram}>
@@ -92,7 +93,7 @@ function Page({ params }) {
               )}
             </ul>
           </div>
-          <div className="w-auto mx-auto md:w-1/2 order-first md:order-last flex flex-col items-center">
+          <div className="w-auto mx-auto md:w-1/2 order-first lg:order-last flex flex-col items-center">
             <div className="p-4 md:p-8 border-l-4 border-l-yellow-500 border-r-4 border-r-red-600 border-t-red-600 border-t-4 border-b-yellow-500 border-b-4 rounded-full">
               <div
                 key={artista?.id}
@@ -106,7 +107,7 @@ function Page({ params }) {
                 />
               </div>
             </div>
-            <ul className="flex gap-4 mt-4 md:hidden">
+            <ul className="flex gap-4 mt-4 lg:hidden">
               <>
                 {artista?.instagram === "" ? null : (
                   <li className="hover:text-yellow-500 duration-300 hover:-translate-y-2">
