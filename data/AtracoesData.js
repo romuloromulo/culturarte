@@ -337,7 +337,8 @@ export const atracoes = [
   {
     id: "Ceara",
     nome: "Forró do Ceará",
-    release: "",
+    release:
+      "Natural de Juazeiro (CE), Maerlio Barbosa, mais conhecido como Ceará, mora em Barreirinhas (MA) e é proprietário do simpático bar Calamengau. Ele irá comandar o forró, animando a moçada com clássicos do cancioneiro nordestino.",
     imagem: Ceara,
     data: "02/11",
     lugar: "Praça da Matriz, Barreirinhas",

@@ -94,8 +94,14 @@ export default function Navbar() {
             : "fixed  top-[-200%] p-10 ease-out duration-500 z-50"
         }
         onClick={handleNav}>
-        <div className="flex">
-          <Image src={logoNav} width={100} height={100} alt="logo" />
+        <div className="flex justify-between">
+          <Image
+            src={logoNav}
+            width={100}
+            height={100}
+            alt="logo"
+            loading="lazy"
+          />
           <AiOutlineClose size={30} className="text-white" />
         </div>
         <ul
@@ -139,6 +145,8 @@ export default function Navbar() {
           className="botton-0 right-0 absolute"
           width={170}
           height={170}
+          loading="lazy"
+          alt="layout"
         />
       </div>
     </div>

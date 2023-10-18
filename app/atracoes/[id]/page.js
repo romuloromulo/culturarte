@@ -53,8 +53,8 @@ function Page({ params }) {
         </div>
         <div
           id="Container"
-          className="px-5 md:px-10 flex md:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full">
-          <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full md:translate-y-[25%]">
+          className="px-5 md:px-10 flex md:flex-row flex-col text-zinc-100 items-start gap-8 justify-center h-full md:pt-[30px]">
+          <div className="flex flex-col items-center justify-center md:items-start md:justify-start w-full ">
             <div className="text-3xl text-center md:text-left md:text-6xl font-bold text-yellow-500 z-20 w-full">
               {artista?.nome}
             </div>
