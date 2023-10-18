@@ -91,12 +91,12 @@ export default function Navbar() {
         className={
           openNav
             ? "fixed left-0 top-0 w-screen sm:hidden h-[80%] bg-black ease-linear duration-500 z-50 p-10 overflow-hidden"
-            : "fixed  top-[-100%]  p-10 ease-out duration-500 z-50"
+            : "fixed  top-[-200%] p-10 ease-out duration-500 z-50"
         }
         onClick={handleNav}>
-        <div className="flex justify-between">
-          {<Image src={logoNav} width={100} height={100} alt="logo" />}
-          <AiOutlineClose size={30} className="text-white cursor-pointer" />
+        <div className="flex">
+          <Image src={logoNav} width={100} height={100} alt="logo" />
+          <AiOutlineClose size={30} className="text-white" />
         </div>
         <ul
           className="flex min-w-[12rem] w-[20%] flex-col mt-8 font-bold text-lg text-zinc-200
