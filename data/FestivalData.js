@@ -25,7 +25,7 @@ export const programaçãoBarreirinhas = [
       { hora: "18h", titulo: "Lançamento de Livros e Poesia Falada" },
       { hora: "19h30", titulo: "Wendel de La Salles Trio (MA)" },
       { hora: "20h30", titulo: "Shows com artistas de Barreirinhas (MA)" },
-      { hora: "22h15", titulo: "Spok Frevo Quinteto (PE)" },
+      { hora: "22h15", titulo: "Spok Quinteto (PE)" },
       { hora: "23h", titulo: "Baile do Agarradinho (MA)" },
     ],
   },
