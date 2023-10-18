@@ -5,14 +5,14 @@ export const programaçãoBarreirinhas = [
       { hora: "18h", titulo: "Lançamentos de Livros e Poesia Falada" },
       { hora: "20h", titulo: "Duo Israel Dantas e Rui Mário (MA)" },
       { hora: "21h", titulo: "Armandinho Macedo (BA) e Marcel Powell (RJ)" },
-      { hora: "22h15", titulo: "Bumba Boi Pérola dos Lençóis (MA)" },
+      { hora: "22h15", titulo: "Bumba Boi Estrela dos Lençóis (MA)" },
       { hora: "23h", titulo: "Forró do Ceará (CE /MA)" },
     ],
   },
   {
     diaSemana: "03/11 - Sexta-feira",
     eventos: [
-      { hora: "18h", titulo: "Lançamento de Livros e Poesia Falada" },
+      { hora: "18h", titulo: "Lançamento gitde Livros e Poesia Falada" },
       { hora: "20h", titulo: "Duo Siqueira Lima (URU/BR)" },
       { hora: "21h", titulo: "Anastácia Lia e Banda (MA)" },
       { hora: "22h15", titulo: "Bumba-meu-boi Encanto dos Lençóis (MA)" },

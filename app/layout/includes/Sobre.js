@@ -49,7 +49,7 @@ function Sobre() {
             <div className="w-full lg:w-1/2 mb-8 ">
               <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
                 <div className="flex flex-col w-full  items-center md:items-start justify-start ">
-                  <h2 className="mr-4">Sobre</h2>
+                  <h2 className="mr-4 mb-2 md:mb-0">Sobre</h2>
                   <h1 className="text-5xl md:text-6xl font-bold mr-2 whitespace-nowrap">
                     {typeText}
                   </h1>

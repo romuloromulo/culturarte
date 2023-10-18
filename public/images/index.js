@@ -6,7 +6,7 @@ import Desengaiola from "./artistas/CULTURARTE/desengaiola.webp";
 import DuoSiqueira from "./artistas/CULTURARTE/duosiqueiralima.webp";
 import EdinhoBastos from "./artistas/CULTURARTE/Edinho-Bastos.jpeg";
 import JoãoSimas from "./artistas/CULTURARTE/João-Simas.jpeg";
-import PerolaDosLençois from "./artistas/CULTURARTE/Perola-Dos-Lençois.jpeg";
+import EstrelaDosLencois from "./artistas/CULTURARTE/EstrelaDosLencois.jpeg";
 import RuimarioIsrael from "./artistas/CULTURARTE/RUI-MARIO-E-ISRAEL.png";
 import SpokFrevoQuinteto from "./artistas/CULTURARTE/Spok-Frevo-Quinteto.jpeg";
 import TamborArteNossa from "./artistas/CULTURARTE/Tambor-de-Crioula-Arte-Nossa.jpeg";
@@ -33,7 +33,7 @@ export {
   DuoSiqueira,
   EdinhoBastos,
   JoãoSimas,
-  PerolaDosLençois,
+  EstrelaDosLencois,
   RuimarioIsrael,
   SpokFrevoQuinteto,
   TamborArteNossa,
