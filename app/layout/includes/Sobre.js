@@ -84,7 +84,7 @@ function Sobre() {
             <div className="md:w-auto lg:w-1/2">
               <div className="lg:w-[500px] h-auto border-4 rounded-xl overflow-hidden border-transparent mx-auto">
                 <video autoPlay loop muted>
-                  <source src="/images/Culturarte.mp4" type="video/mp4" />
+                  <source src="/videos/Culturarte.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
