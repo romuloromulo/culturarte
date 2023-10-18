@@ -34,14 +34,14 @@ function Header() {
           <div className="mx-auto w-full text-zinc-100 pt-[75px] flex-col  flex text-center items-center justify-center">
             <div className="md:flex-row flex flex-col font-bold  ">
               <span className="text-md md:text-lg z-10 ">
-                Minestério da Cultura{" "}
+                Ministério da Cultura{" "}
               </span>{" "}
               <span className="text-md md:text-lg ml-1  z-10">
                 {" "}
                 E Instituto Cultural Vale
               </span>
             </div>
-            <div className="z-10"> apresentam</div>
+            <div className="z-10 font-thin"> apresentam</div>
           </div>
           <div className="w-full flex items-center justify-around lg:px-20 flex-col lg:flex-row md:gap-24 2xl:pt-0 2xl:min-h-screen">
             <div className="px-8 md:px-0 mt-8 w-[70%] md:w-auto">
