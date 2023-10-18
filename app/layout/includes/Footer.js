@@ -16,7 +16,7 @@ function Footer() {
             src={patrocineo}
             className="object-cover md:object-contain hidden sm:block"
             loading="lazy"
-            sizes="(max-width: 750px)50vw, (max-width:1200px) 70vw, 60vw"
+            sizes="(max-width: 750px)100vw, (max-width:1200px)100vw"
           />
           <Image
             src={FooterP}
