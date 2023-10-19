@@ -54,7 +54,7 @@ export default function Navbar() {
             <Link href={`/programacao`}>
               <li className=" ">
                 <p className="relative hover:text-white group p-2">
-                  Progração
+                  Programação
                   <span className="absolute left-0 bottom-1 w-full h-1 bg-purple-600  rounded-full -z-10 group-hover:h-[80%]  group-hover:transition-all"></span>
                 </p>
               </li>
