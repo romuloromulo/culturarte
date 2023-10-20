@@ -304,7 +304,8 @@ export const atracoes = [
   {
     id: "EdinhoBastos",
     nome: "Edinho Bastos",
-    release: "",
+    release:
+      "Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical.",
     imagem: EdinhoBastos,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -317,7 +318,8 @@ export const atracoes = [
   {
     id: "Daffe",
     nome: "Daffé",
-    release: "",
+    release:
+      "Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical.",
     imagem: Daffe,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -331,7 +333,8 @@ export const atracoes = [
   {
     id: "Sandra-Duailibe ",
     nome: "Sandra Duailibe ",
-    release: "",
+    release:
+      "Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical.",
     imagem: SandraDuailibe,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -377,7 +380,7 @@ export const atracoes = [
   {
     id: "Joao-Simas",
     nome: "João Simas",
-    release: "",
+    release: `Expoentes da nova geração da música contemporânea Klícia, Regiane Araujo, Léo Viana, Paulão e  Tássia Campos sobem ao palco para um show coletivo regido pelo guitarrista João Simas. O músico é pesquisador de Cultura Popular. Ele traz no trabalho toda força, identidade e variedade rítmica das manifestações do Maranhão. No cinema Maranhense, Simas também já conta com mais de 40 trilhas para documentários e longa metragens produzidos no Museu da Memória Audiovisual do Maranhão -  MAVAM.`,
     imagem: JoãoSimas,
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
@@ -391,7 +394,7 @@ export const atracoes = [
   {
     id: "Regiane-Araujo",
     nome: "Regiane Araujo",
-    release: "",
+    release: `Expoentes da nova geração da música contemporânea Klícia, Regiane Araujo, Léo Viana, Paulão e  Tássia Campos sobem ao palco para um show coletivo regido pelo guitarrista João Simas. O músico é pesquisador de Cultura Popular. Ele traz no trabalho toda força, identidade e variedade rítmica das manifestações do Maranhão. No cinema Maranhense, Simas também já conta com mais de 40 trilhas para documentários e longa metragens produzidos no Museu da Memória Audiovisual do Maranhão -  MAVAM.`,
     imagem: RegianeAraujo,
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
@@ -420,7 +423,7 @@ export const atracoes = [
   {
     id: "Klicia",
     nome: "Klícia",
-    release: "",
+    release: `Expoentes da nova geração da música contemporânea Klícia, Regiane Araujo, Léo Viana, Paulão e  Tássia Campos sobem ao palco para um show coletivo regido pelo guitarrista João Simas. O músico é pesquisador de Cultura Popular. Ele traz no trabalho toda força, identidade e variedade rítmica das manifestações do Maranhão. No cinema Maranhense, Simas também já conta com mais de 40 trilhas para documentários e longa metragens produzidos no Museu da Memória Audiovisual do Maranhão -  MAVAM.`,
     imagem: Klicia,
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
@@ -435,7 +438,7 @@ export const atracoes = [
   {
     id: "Celia-Maria",
     nome: "Célia Maria",
-    release: "",
+    release: `Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical.`,
     imagem: CeliaMaria,
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
@@ -450,7 +453,7 @@ export const atracoes = [
   {
     id: "Paulao",
     nome: "Paulão",
-    release: "",
+    release: `Expoentes da nova geração da música contemporânea Klícia, Regiane Araujo, Léo Viana, Paulão e  Tássia Campos sobem ao palco para um show coletivo regido pelo guitarrista João Simas. O músico é pesquisador de Cultura Popular. Ele traz no trabalho toda força, identidade e variedade rítmica das manifestações do Maranhão. No cinema Maranhense, Simas também já conta com mais de 40 trilhas para documentários e longa metragens produzidos no Museu da Memória Audiovisual do Maranhão -  MAVAM.`,
     imagem: Paulao,
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
