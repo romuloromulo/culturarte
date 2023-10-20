@@ -53,7 +53,7 @@ export const programaçãoSlz = [
       {
         hora: "20h",
         titulo:
-          "Shows do guitarrista Edinho Bastos com participações especiais de Célia Maria, Sandra Duailibe, Luciana Pinheiro, Gildomar Marinho, Daffé e Nivaldo. (MA)",
+          "Show com Célia Maria, Sandra Duailibe, Luciana Pinheiro, Gildomar Marinho, Daffé e Nivaldo, com direção musical de Edson Bastos.",
       },
       {
         hora: "21h",

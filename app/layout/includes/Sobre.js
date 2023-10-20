@@ -91,10 +91,10 @@ function Sobre() {
           </div>
         </div>
         <div className="w-full  bg-purple-500 bg-opacity-50 p-4 md:p-6 my-8 shadow-md shadow-zinc-800 ">
-          <ul className="flex space-x-2  md:space-x-6 lg:space-x-8 items-center justify-center text-sm md:text-lg lg:text-xl mx-auto md:font-bold container">
+          <ul className="flex space-x-2  md:space-x-6 lg:space-x-8 items-center justify-between text-sm md:text-lg lg:text-xl mx-auto md:font-bold container">
             <li>ARTESANATO</li>
             <li>EXPOSIÇÕES</li>
-            <li>COMIDA TÍPICA</li>
+            <li className="hidden sm:block">COMIDA TÍPICA</li>
             <li>PALESTRAS</li>
             <li>SHOWS</li>
           </ul>{" "}

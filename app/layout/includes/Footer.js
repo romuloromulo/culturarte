@@ -11,7 +11,7 @@ function Footer() {
   return (
     <section id="Footer" className="flex flex-col items-center">
       <div id="Imagem" className="container">
-        <div className="relative w-full mx-auto md:container mt-32 p-8">
+        <div className="relative w-full mx-auto md:container mt-8 md:mt-32  p-0  md:p-8">
           <Image
             src={patrocineo}
             className="object-cover md:object-contain hidden sm:block"

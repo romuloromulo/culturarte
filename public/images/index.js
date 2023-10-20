@@ -3,7 +3,7 @@ import ArmandinhoPowell from "./artistas/CULTURARTE/Armandinho-Powell.jpeg";
 import BoiDeSantaFe from "./artistas/CULTURARTE/Boisantafe.jpeg";
 import ChiquinhoFrança from "./artistas/CULTURARTE/Chiquinho-França.jpeg";
 import Desengaiola from "./artistas/CULTURARTE/desengaiola.webp";
-import DuoSiqueira from "./artistas/CULTURARTE/duosiqueiralima.webp";
+import DuoSiqueira from "./artistas/CULTURARTE/duosiqueiralima.jpeg";
 import EdinhoBastos from "./artistas/CULTURARTE/Edinho-Bastos.jpeg";
 import JoãoSimas from "./artistas/CULTURARTE/João-Simas.jpeg";
 import EstrelaDosLencois from "./artistas/CULTURARTE/EstrelaDosLencois.jpeg";
@@ -22,8 +22,11 @@ import Paulao from "./artistas/CULTURARTE/Paulao.jpeg";
 import GildomarMarinho from "./artistas/CULTURARTE/GildomarMarinho.jpeg";
 import Daffe from "./artistas/CULTURARTE/Daffe.jpeg";
 import SandraDuailibe from "./artistas/CULTURARTE/SandraDuailibe.jpeg";
+import Agarradinho from "./artistas/CULTURARTE/Agarradinho.jpeg";
 import LucianaPinheiro from "./artistas/CULTURARTE/lucianapinheiro.jpeg";
 import RegianeAraujo from "./artistas/CULTURARTE/RegianeAraujo.webp";
+import SaoBenedito from "./artistas/CULTURARTE/capelinhasaobenedito.webp";
+import SaoMarcal from "./artistas/CULTURARTE/saomarcal.webp";
 export {
   Indiana,
   ArmandinhoPowell,
@@ -51,4 +54,7 @@ export {
   SandraDuailibe,
   RegianeAraujo,
   LucianaPinheiro,
+  Agarradinho,
+  SaoBenedito,
+  SaoMarcal,
 };

@@ -25,12 +25,13 @@ import {
   SandraDuailibe,
   RegianeAraujo,
   LucianaPinheiro,
+  Agarradinho,
 } from "../public/images/index";
 
 export const atracoes = [
   {
     id: "Indiana-Nomma",
-    nome: "Indiana Nomma canta Mercedes Sosa",
+    nome: "Indiana Nomma",
     release: `A cantora de jazz e música latino-americana Indiana Nomma tem 6 álbuns lançados desde 2015, incluindo "UNEXPECTED" e "LESSONS IN LOVE". Ela foi finalista em importantes prêmios de música brasileira em 2016 e 2018, e seu álbum "INDIANA NOMMA" alcançou o top 10 das vendas no iTunes em Israel em 2017. Seu álbum mais recente, "MERCEDES SOSA: A VOZ DOS SEM VOZ", recebeu elogios da crítica, com 4 estrelas de 5.
     Nascida em Honduras e radicada no Brasil, Indiana Nomma apresenta o Tributo a Mercedes Sosa há 23 anos, oficialmente reconhecido pela família de Mercedes Sosa. Ela também representou o Brasil em eventos internacionais e colaborou com diversos artistas, incluindo Milton Nascimento, Daniela Mercury e outros. Além disso, oferece workshops sobre a indústria musical e o ofício de cantora. 
     Indiana Nomma é conhecida por sua voz grave e versatilidade em diversos estilos, incluindo jazz, bossa nova e música latino-americana, cantando em vários idiomas. Seus shows são marcados por improvisações e sua habilidade com o trompete de boca, criando atrações hipnotizantes.`,
@@ -62,7 +63,7 @@ export const atracoes = [
   {
     id: "Boi-de-Santa-Fe",
     nome: "Boi de Santa Fé",
-    release: "",
+    release: `O grupo é oriundo da baixada maranhense, com sede no Bairro de Fátima, em São Luís (MA). Tem a coordenação de José de Jesus Figueiredo, o popular "Mestre Zé Olhinho", Raimundo Miguel Ferreira (Mestre Raimundinho) e João Madeira Ribeiro (em memória). É um dos grupos de bumba-meu-bois mais festejados e requisitados do Maranhão, pela exuberância das indumentárias e seus imponentes Cazumbas. `,
     imagem: BoiDeSantaFe,
     data: "02/11",
     lugar: " Convento das Mercês, São Luís",
@@ -75,7 +76,7 @@ export const atracoes = [
   {
     id: "ChiquinhoFranca",
     nome: "Chiquinho França Quarteto",
-    release: "",
+    release: `​Seja no clássico ou no popular, ela emociona a alma de quem o escuta. Chiquinho França é premiado em todo o Norte-Nordeste, e a música dele ecoa em mais de cem países, através da Globo Internacional, como trilha sonora de programas como: Globo Repórter, Fantástico e Globo News. É autor de vários projetos, entre eles:  SomMará (no Rio de Janeiro), A 5, o Festival Aberto de Imperatriz (MA) - FABER e o Maranhão Musical.`,
     imagem: ChiquinhoFrança,
     data: "10/11",
     lugar: "Convento das Mercês, São Luís",
@@ -90,7 +91,7 @@ export const atracoes = [
     id: "Desengaiola",
     nome: "Desengaiola",
     release:
-      "Com Alfredo Del-Penho, João Cavalcanti, Moyseis Marques e Pedro Miranda",
+      "Amigos há mais de 20 anos, eles estiveram lado a lado no processo de reocupação cultural do Bairro da Lapa, na capital fluminense. A admiração mútua entre eles criou uma intensa parceria musical, que desaguou em canções, shows e participações em discos. E o projeto Desngaiola é o marco simbólico dessa união. São eles: Alfredo Del-Penho (voz, violão 7 cordas, flauta e cavaquinho), João Cavalcanti (voz, tamborim, assovio, tantan, zabumba e ganzá), Moyseis Marques (voz, violão, cavaquinho e berimbau) e Pedro Miranda (voz, tamborim, ganzá, pandeiro, tantan, triângulo, caixa de fósforo e violão).",
     imagem: Desengaiola,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -104,7 +105,8 @@ export const atracoes = [
   {
     id: "DuoSiqueiraLima",
     nome: "Duo Siqueira Lima",
-    release: "",
+    release: `Com técnica instrumental impecável, interpretação detalhada e muito carisma, o Duo Siqueira Lima possui sucesso raro entre os violonistas de qualquer época no Brasil. Ambos os músicos vêm de famílias ligadas à música. Fernando Lima é mineiro, aprendeu a tocar viola caipira e cavaquinho com o pai. Cecília Siqueira também foi uma menina prodígio. O avô, os tios e os pais foram violonistas. Em 2002, os dois começaram a namorar e formaram o duo oficialmente, tocando em cidades do Uruguai,  com repertório de Pixinguinha a Scott Joplin. 
+    Debutaram na Irlanda em 2007. Eles têm vários discos lançados, e o mais recente é “Dois Violões em Concerto: Duo Siqueira Lima e Orquestra Sinfônica de Guarulhos”, lançado em outubro de 2023.`,
     imagem: DuoSiqueira,
     data: "03/11",
     lugar: "Local da programação",
@@ -118,10 +120,11 @@ export const atracoes = [
   {
     id: "BoiEncanto",
     nome: "Bumba-meu-boi Encanto dos Lençóis",
-    release: "",
+    release:
+      "O tema 2023 do grupo Bumba-meu-boi Encanto dos Lençóis é o Fogo - Chama viva que clareia as noites de São João. É da comunidade de Tapuio, Barreirinhas (MA) , fundado há 13 anos, com o objetivo de conservar e valorizar as manifestações culturais e artísticas, interpretando os diversos sotaques maranhenses",
     imagem: BoiEncanto,
     data: "03/11",
-    lugar: "Local da programação",
+    lugar: "Praça da Matriz, Barreirinhas",
     horario: "22h15",
     spotify: "",
     youtube: "https://www.youtube.com/watch?v=vM36e7cEiIw",
@@ -173,7 +176,8 @@ export const atracoes = [
   {
     id: "Luciana-Pinheiro",
     nome: "Luciana Pinheiro",
-    release: "",
+    release:
+      "Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical. ",
     imagem: LucianaPinheiro,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -187,7 +191,8 @@ export const atracoes = [
   {
     id: "Gildomar-Marinho",
     nome: "Gildomar Marinho",
-    release: "",
+    release:
+      "Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical. ",
     imagem: GildomarMarinho,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -202,7 +207,7 @@ export const atracoes = [
     id: "Duo-Gisbranco",
     nome: "Duo Gisbranco",
     release:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "O Duo GisBranco é formado por duas pianistas que trazem em sua trajetória uma afinidade musical rara. Bianca Gismonti e Claudia Castelo Branco unem o interesse por ritmos brasileiros, latinos e jazz à uma sólida formação. O processo consiste em explorar ao máximo a sonoridade do piano na fronteira entre a música popular e erudita. Tendo como origem compositores como Astor Piazzolla, Egberto Gismonti, Hermeto Pascoal, Villa-Lobos, Ernesto Nazareth, Edu Lobo e as próprias pianistas, Bianca e Claudia criam em cima de arranjos escritos por elas e pelos próprios compositores. ",
     imagem: GisBranco,
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
@@ -244,14 +249,14 @@ export const atracoes = [
   {
     id: "BumbaBoiRevelaçãodeSãoMarçal",
     nome: "Bumba Boi Revelação de São Marçal",
-    release: "",
+    release: `O Bumba-Meu-Boi Revelação de São Marçal, surgiu no ano de 2018 precisamente em 28 de outubro no encontro de amigos e familiares. Situado no Bairro do João Paulo em São Luís/MA, o Boi Revelação de São Marçal é uma brincadeira folclórica do sotaque de matraca conhecido como "sotaque da ilha". Esse grande encontro aconteceu na Av. São Marçal no Bairro do João Paulo cujo nome também foi dado ao santo que celebra o dia nacional do Bumba Meu Boi. `,
     imagem: "",
     data: "12/11",
     lugar: "Convento das Mercês, São Luís",
     horario: "22h15",
     spotify: "",
-    youtube: "",
-    instagram: "",
+    youtube: "https://www.youtube.com/channel/UCJHe6DdzbUveTvMA7_4vzEg",
+    instagram: "https://www.instagram.com/revelacaosaomarcal/",
     estado: "MA",
   },
   {
@@ -297,7 +302,8 @@ export const atracoes = [
   {
     id: "Spok-Quinteto",
     nome: "Spok Quinteto",
-    release: `O Spok Quinteto é uma renomada formação musical liderada pelo maestro Cláudio Spok. Originária de Igarassu, a banda é conhecida por sua notável habilidade técnica e versatilidade musical. Com uma carreira que abrange décadas, o Spok Quinteto oferece um som diversificado, influenciado pela cultura do Frevo e outras tradições musicais brasileiras. Sua música é apreciada tanto nacional quanto internacionalmente, tornando o grupo uma parte significativa da cena musical do Brasil. Além disso, o maestro Spok e o quinteto estão envolvidos em projetos educacionais e culturais que contribuem para o desenvolvimento de jovens talentos musicais e promovem a preservação da rica herança musical do país.`,
+    release: `Maestro Spok começou na música aos 13 anos. Nos anos 90, em meio à ebulição musical que ocorreu em Recife, Spok enxergou outros horizontes. Entendeu que a liberdade deveria ter lugar assegurado na sua música. É há quase vinte anos é instrumentista, arranjador e diretor musical da SpokFrevo Orquestra e conheceu quase todo o Mundo. Spok de fato impressiona em vários níveis. Habilidade técnica grandiosa, criador de arranjos desafiadores, possuidor de uma didática generosa. A ancestralidade da sua cultura, da sua história presentes em sua obra a tornam única.
+    `,
     imagem: SpokFrevoQuinteto,
     data: "04/11",
     lugar: "Praça da Matriz, Barreirinhas",
@@ -311,8 +317,9 @@ export const atracoes = [
   {
     id: "Baile-do-Agarradinho",
     nome: "Baile do Agarradinho (MA)",
-    release: "",
-    imagem: "",
+    release: `A ideia do Baile veio a partir do show de lançamento do EP “Agarradinho”, de Tutuca Viana acompanhado de Andrezinho (acordeon), Dedé Valença (baixo), Lucas Pacheco (bateria), Vinícius Lima (percussão). O repertório do show tem vários sucessos autorais Viana, além de releituras de clássicos do cancioneiro nordestino, saudando João do Vale e Luiz Gonzaga.
+    O cantor e compositor refinado, Tutuca Viana, já contabiliza 33 anos de carreira artística. Sobretudo, ao seu talento genuíno para a Música, é também reconhecido nacionalmente como produtor cultural, idealizador do consagrado Lençóis Jazz & Blues Festival, de edições anuais em São Luís e Barreirinhas (MA), Palco Mundo (São Luís - MA) e o São José de Ribamar Jazz & Blues Festival, realizado na cidade balneária, situada na região metropolitana da capital maranhense.`,
+    imagem: Agarradinho,
     data: "04/11",
     lugar: "Praça da Matriz, Barreirinhas",
     horario: "23h",
@@ -324,7 +331,8 @@ export const atracoes = [
   {
     id: "TamborArteNossa",
     nome: "Tambor de Crioula Arte Nossa ",
-    release: "",
+    release:
+      "O grupo é um ponto de cultura formado em 2007, que trabalha a arte como ferramenta de inclusão social de crianças e adolescentes. E a difusão e valorização do tambor de crioula, uma forma de expressão de matriz afro-brasileira popular no estado do Maranhão, patrimônio imaterial brasileiro.",
     imagem: TamborArteNossa,
     data: "11/11",
     lugar: "Convento das Mercês, São Luís",
@@ -364,7 +372,8 @@ export const atracoes = [
   {
     id: "Forro-Tripa-de-Bode",
     nome: "Forró Tripa de Bode ",
-    release: "",
+    release:
+      "O grupo é tradicionalíssimo em toda região, com 40 anos de fundação. Começou em forma de charanga para animar jogos de futebol e foi crescendo profissionalmente. É formado por Inácio, Jovanes, Boa Ventura, Chico Clela e Zé Pula.",
     imagem: ForroTripa,
     data: "04/11",
     lugar: "Praça da Matriz, Barreirinhas",
@@ -377,7 +386,7 @@ export const atracoes = [
   {
     id: "Tambor-de-Crioula-Capelinha-de-São-Benedito",
     nome: "Tambor de Crioula Capelinha de São Benedito ",
-    release: "",
+    release: `O Tambor de Crioula da Capelinha de São Benedito é liderado por Carla Coreira, criadora da Capelinha situada na Praça da Faustina, onde existia uma antiga lixeira. Foi dançando nas rodas de tambor de crioula, em São Luís, Carla Coreira, ganhou notoriedade nacional. Filha de Mestra Roxa, caixeira do Divino Espírito Santo e do Cacuriá de Dona Teté, Carla viu a sua vida mudar por conta do Tambor de Crioula. E principalmente, quando foi notada pelo escritor e poeta Aruano Suassuna na ocasião da I Feira do Livro, em 2005, realizada na capital maranhense. Desde 2006, Carla Coreira vem ministrando oficinas em todo o país, além de participar de campanhas publicitárias e de figuração. Foi destaque do programa Encontro da Rede Globo`,
     imagem: "",
     data: "10/1",
     lugar: " Convento das Mercês, São Luís",
@@ -419,7 +428,8 @@ export const atracoes = [
   {
     id: "AnastaciaLia",
     nome: "Anastácia Lia",
-    release: "",
+    release:
+      "Anastácia Lia traz ao cenário musical um seleto repertório de músicas com redescoberta de sons, ritmos e tendências da Música Brasileira. Tem origens arraigadas na Cultura maranhense, neta de fundadores da Escola de samba Turma do Quinto. É cantora, compositora e atriz maranhense, autodidata. É uma das estrelas do espetáculo Marrom, O Musical. Foi indicada ao Prêmio Bibi Ferreira. Faz parte do elenco do Filme “Tire 5 Cartas”, dirigido por Diego Freitas.",
     imagem: AnastaciaLia,
     data: "03/11",
     lugar: "Praça da Matriz, Barreirinhas",
