@@ -109,7 +109,7 @@ export const atracoes = [
     Debutaram na Irlanda em 2007. Eles têm vários discos lançados, e o mais recente é “Dois Violões em Concerto: Duo Siqueira Lima e Orquestra Sinfônica de Guarulhos”, lançado em outubro de 2023.`,
     imagem: DuoSiqueira,
     data: "03/11",
-    lugar: "Local da programação",
+    lugar: "Praça da Matriz, Barreirinhas ",
     horario: "20h",
     spotify:
       "https://open.spotify.com/intl-pt/artist/6cdFnDZper4yjx7xZouPKi?si=b0IheGWzTKK6kYjPRTHVHQ",
@@ -316,7 +316,7 @@ export const atracoes = [
   },
   {
     id: "Baile-do-Agarradinho",
-    nome: "Baile do Agarradinho (MA)",
+    nome: "Baile do Agarradinho",
     release: `A ideia do Baile veio a partir do show de lançamento do EP “Agarradinho”, de Tutuca Viana acompanhado de Andrezinho (acordeon), Dedé Valença (baixo), Lucas Pacheco (bateria), Vinícius Lima (percussão). O repertório do show tem vários sucessos autorais Viana, além de releituras de clássicos do cancioneiro nordestino, saudando João do Vale e Luiz Gonzaga.
     O cantor e compositor refinado, Tutuca Viana, já contabiliza 33 anos de carreira artística. Sobretudo, ao seu talento genuíno para a Música, é também reconhecido nacionalmente como produtor cultural, idealizador do consagrado Lençóis Jazz & Blues Festival, de edições anuais em São Luís e Barreirinhas (MA), Palco Mundo (São Luís - MA) e o São José de Ribamar Jazz & Blues Festival, realizado na cidade balneária, situada na região metropolitana da capital maranhense.`,
     imagem: Agarradinho,
@@ -326,7 +326,7 @@ export const atracoes = [
     spotify: "",
     youtube: "",
     instagram: "",
-    estado: "",
+    estado: "(MA)",
   },
   {
     id: "TamborArteNossa",
