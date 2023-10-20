@@ -53,7 +53,7 @@ export const programaçãoSlz = [
       {
         hora: "20h",
         titulo:
-          "Show com Célia Maria, Sandra Duailibe, Luciana Pinheiro, Gildomar Marinho, Daffé e Nivaldo, com direção musical de Edson Bastos.",
+          "Show com Célia Maria, Sandra Duailibe, Luciana Pinheiro, Gildomar Marinho, Daffé e Nivaldo, com direção musical de Edson Bastos. (MA)",
       },
       {
         hora: "21h",
@@ -70,7 +70,7 @@ export const programaçãoSlz = [
       {
         hora: "21h",
         titulo:
-          "Show com Klícia, Regiane Araujo, Rafaela Brelaz, Léo Viana, Paulão, Tássia Campos, na direção musical de João Simas. (MA)",
+          "Show com Klícia, Regiane Araujo, Chico Nô, Léo Viana, Paulão, Tássia Campos, na direção musical de João Simas. (MA)",
       },
       { hora: "22h15", titulo: "Bumba Boi Revelação de São Marçal (MA)" },
     ],
