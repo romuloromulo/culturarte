@@ -12,7 +12,7 @@ export const programaçãoBarreirinhas = [
   {
     diaSemana: "03/11 - Sexta-feira",
     eventos: [
-      { hora: "18h", titulo: "Lançamento gitde Livros e Poesia Falada" },
+      { hora: "18h", titulo: "Lançamento de Livros e Poesia Falada" },
       { hora: "20h", titulo: "Duo Siqueira Lima (URU/BR)" },
       { hora: "21h", titulo: "Anastácia Lia e Banda (MA)" },
       { hora: "22h15", titulo: "Bumba-meu-boi Encanto dos Lençóis (MA)" },
