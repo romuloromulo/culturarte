@@ -47,7 +47,7 @@ function Sobre() {
         <div className="container mx-auto min-h-screen border-t border-zinc-800 py-8">
           <div className="w-full md:mt-[55px]   flex lg:flex-row flex-col justify-center items-center h-full px-4 md:px-8">
             <div className="w-full lg:w-1/2 mb-8 ">
-              <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8">
+              <div className="flex flex-col md:flex-row items-center justify-center w-full mb-8 md:mb-4">
                 <div className="flex flex-col w-full  items-center md:items-start justify-start ">
                   <h2 className="mr-4 mb-2 md:mb-0">Sobre</h2>
                   <h1 className="text-5xl md:text-6xl font-bold mr-2 whitespace-nowrap">
@@ -78,6 +78,11 @@ function Sobre() {
                   da culinária típica e também a realização de palestras
                   voltadas aos alunos das escolas públicas federais, estaduais
                   ou municipais.
+                </p>
+                <p className="text-yellow-500 font-sans">
+                  O CULTURARTE garante o acesso universal, com medidas de
+                  acessibilidade para pessoas portadores de deficiência e com
+                  mobilidade reduzida.
                 </p>
               </div>
             </div>

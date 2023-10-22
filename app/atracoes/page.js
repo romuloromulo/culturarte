@@ -16,27 +16,25 @@ function Atrações() {
         <div
           key={index}
           className="z-10 rounded-full  w-[200px] h-[200px] flex items-center justify-center overflow-hidden m-1 mb-2 relative">
-          <div className="w-full h-full relative">
-            <Link href={`atracoes/${item?.id}`} className="group ">
-              <Image
-                src={item?.imagem}
-                alt={`Foto de ${item?.nome}`}
-                layout="fill"
-                objectFit="cover"
-                className="shadow-lg"
-                loading="lazy"
-                placeholder="blur"
-                blurDataURL="/images/logos/Marca.png"
-                sizes="(max-width: 750px)50vw, (max-width:1200px) 30vw, 20vw"
-              />
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileHover={{ opacity: 1 }}
-                className="bg-black bg-opacity-70 absolute h-full w-full top-0 left-0 transition-opacity flex justify-center items-center">
-                <div className="bg-yellow-500 p-2 rounded-lg">Saiba mais</div>
-              </motion.div>
-            </Link>
-          </div>
+          <Link href={`atracoes/${item?.id}`} className="group ">
+            <Image
+              src={item?.imagem}
+              alt={`Foto de ${item?.nome}`}
+              layout="fill"
+              objectFit="cover"
+              className="shadow-lg"
+              loading="lazy"
+              placeholder="blur"
+              blurDataURL="/images/logos/Marca.png"
+              sizes="(max-width: 750px)50vw, (max-width:1200px) 30vw, 20vw"
+            />
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+              className="bg-black bg-opacity-70 absolute h-full w-full top-0 left-0 transition-opacity flex justify-center items-center">
+              <div className="bg-yellow-500 p-2 rounded-lg">Saiba mais</div>
+            </motion.div>
+          </Link>
         </div>
         <Link
           href={`atracoes/${item?.id}`}

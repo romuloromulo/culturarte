@@ -61,7 +61,8 @@ export const atracoes = [
   {
     id: "Estrela-Dos-Lencois",
     nome: "Estrela Dos Lençois",
-    release: "",
+    release:
+      "De sotaque de orquestra, o grupo de bumba-meu-boi Estrela dos Lençóis tem cerca de 60 componentes, em sua maioria, jovens barreirinhenses. É liderado por Carlos Jhones, tem como lema: Um sonho que se torna realidade.",
     imagem: EstrelaDosLencois,
     data: "02/11",
     lugar: "Praça da Matriz, Barreirinhas",
@@ -104,7 +105,7 @@ export const atracoes = [
     id: "AnastaciaLia",
     nome: "Anastácia Lia",
     release:
-      "Anastácia Lia traz ao cenário musical um seleto repertório de músicas com redescoberta de sons, ritmos e tendências da Música Brasileira. Tem origens arraigadas na Cultura maranhense, neta de fundadores da Escola de samba Turma do Quinto. É cantora, compositora e atriz maranhense, autodidata. É uma das estrelas do espetáculo Marrom, O Musical. Foi indicada ao Prêmio Bibi Ferreira. Faz parte do elenco do Filme “Tire 5 Cartas”, dirigido por Diego Freitas.",
+      "Anastácia Lia traz ao cenário artístico um seleto repertório com redescobertas de sons, ritmos e tendências da Música Brasileira. Tem origens arraigadas na Cultura maranhense, neta de fundadores da Escola de samba Turma do Quinto. É cantora, compositora e atriz maranhense, autodidata. É uma das estrelas do espetáculo Marrom, O Musical, vencedor do Prêmio Bibi Ferreira. Faz parte do elenco do Filme “Tire 5 Cartas”, dirigido por Diego Freitas.",
     imagem: AnastaciaLia,
     data: "03/11",
     lugar: "Praça da Matriz, Barreirinhas",
@@ -146,7 +147,8 @@ export const atracoes = [
   {
     id: "WendelSalles",
     nome: "Wendel de La Salles Trio ",
-    release: "",
+    release: `Natural de Natal/RN. Iniciou na música como cavaquinista no clube do choro de Natal passando posteriormente ao bandolim. Em Natal fez parte como bandolinista do regional “Choro e Companhia”, grupo com diversas apresentações pelo Brasil e pelo Exterior. Possui participação em cd’s de artistas nacionais e internacionais. Já se apresentou com renomados instrumentistas da música brasileira, como Nicolas Krassik, Alessandro Pennezzi, Messias Brito, Márcio Marinho, Silvério Pontes, Jorge Cardoso, Zé da Velha, entre outros.
+    Já atuou em diversos festivais realizados no Estado. Atualmente integra o Quarteto Crivador. No Culturarte Maranhão estará com uma formação inédita, em trio, contando com a participação dos músicos Tiago Fernandes (Violão 7 Cordas) e Valdico Monteiro (Pandeiro).`,
     imagem: WendelSalles,
     data: "04/11",
     lugar: "Praça da Matriz, Barreirinhas",
