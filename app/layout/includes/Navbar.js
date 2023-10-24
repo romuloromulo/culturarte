@@ -70,7 +70,7 @@ export default function Navbar() {
             </div>
           </Link>
           <Link
-            href="https://www.instagram.com/culturarte_maranhao/"
+            href="https://www.facebook.com/LencoisJazzBluesFestival"
             target="_blank">
             <div className="bg-yellow-400 border-2 border-yellow-400  rounded-full p-2 hover:bg-transparent hover:-translate-y-[15%] hover:text-white  duration-300 ease-out">
               <SiFacebook size={22} />

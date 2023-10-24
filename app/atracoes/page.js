@@ -25,7 +25,6 @@ function Atrações() {
               className="shadow-lg"
               loading="lazy"
               placeholder="blur"
-              blurDataURL="/images/logos/Marca.png"
               sizes="(max-width: 750px)50vw, (max-width:1200px) 30vw, 20vw"
             />
             <motion.div
