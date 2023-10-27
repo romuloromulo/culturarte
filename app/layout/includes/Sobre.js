@@ -81,8 +81,8 @@ function Sobre() {
                 </p>
                 <p className="text-yellow-500 font-sans">
                   O CULTURARTE garante o acesso universal, com medidas de
-                  acessibilidade para pessoas portadores de deficiência e com
-                  mobilidade reduzida.
+                  acessibilidade para pessoas com deficiência e com mobilidade
+                  reduzida.
                 </p>
               </div>
             </div>
