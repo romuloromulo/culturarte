@@ -7,8 +7,9 @@ const inter = Syne({
 });
 
 export const metadata = {
-  title: "Culturarte",
-  description: "Festival de cultura e arte maranhense!",
+  title: "Culturarte Maranhão",
+  description:
+    "Festival de cultura popular, música, culinária, artes visuais, artesanato e literatura maranhense!",
 };
 
 export default function RootLayout({ children }) {
