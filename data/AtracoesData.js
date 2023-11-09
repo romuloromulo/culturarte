@@ -333,8 +333,8 @@ export const atracoes = [
     estado: "MA",
   },
   {
-    id: "Sandra-Duailibe ",
-    nome: "Sandra Duailibe ",
+    id: "Sandra-Duailibe",
+    nome: "Sandra Duailibe",
     release:
       "Uma verdadeira festa no palco com grandes vozes representativas no Estado, com a direção musical de Edson Bastos, autodidata, que, aos 7 anos, começou a estudar piano com a avó Zélia Bastos, eviolão com seu tio/avô Mário Bastos. Na guitarra, o seu primeiro professor foi o cantor e compositor Betto Pereira, que na época era guitarrista do cantor Sérgio Habibe. Começou a carreira de guitarrista aos 13 anos tocando festivais com os cantores Mano Borges e Gabriel Melônio. De lá pra cá, o currículo é imenso, com passagens por todo o Brasil. Dirigiu 02 duas etapas do festival “Canta Nordeste” - Rede Globo. É guitarrista, violonista, arranjador e produtor musical.",
     imagem: SandraDuailibe,
