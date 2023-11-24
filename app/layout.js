@@ -6,11 +6,11 @@ const inter = Syne({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-export const metadata = {
-  title: "Culturarte Maranhão",
-  description:
-    "Festival de cultura popular, música, culinária, artes visuais, artesanato e literatura maranhense!",
-};
+// export const metadata = {
+//   title: "Culturarte Maranhão",
+//   description:
+//     "Festival de cultura popular, música, culinária, artes visuais, artesanato e literatura maranhense!",
+// };
 
 export default function RootLayout({ children }) {
   return (
